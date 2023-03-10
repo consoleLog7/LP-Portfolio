@@ -42,7 +42,7 @@ with col1:
     ''')
     st.markdown(":email: loganpugsley7@gmail.com")
     st.markdown(":link: https://ca.linkedin.com/in/loganpugsley")
-    st.markdown(":phone: (506)-863-4378")
+    st.markdown(":phone: (506) 863-4378")
 
 with col2:
     st.image("Profile_Image.jpeg")
