@@ -69,6 +69,7 @@ st.markdown('''
 - 2nd Year Student
 - Order of Merit Scholar in the Schwartz School of Business
 - Member of the Dean's List
+- Taking courses in Information Technology, Project Management, SAP, Accounting, Financial Management, Computer Science, etc.
 ''')
 
 
