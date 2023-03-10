@@ -163,7 +163,7 @@ with col2: st.markdown('`Polite`, `Lifelong Learner`, `Team Player`, `Critical T
 st.markdown('''
 ## Additional Resources / Information
 ''')
-st.write("[CurlData](https://www.google.com)")
-st.write("[Guest speaker on The Data Crunch podcast](https://www.google.com)")
-st.write("[Github Profile](https://www.google.com)")
+st.write("[CurlData](https://www.curldata.ca)")
+st.write("[Guest speaker on The Data Crunch podcast](https://www.curldata.ca/podcast)")
+st.write("[Github Profile](https://github.com/consoleLog7)")
 
