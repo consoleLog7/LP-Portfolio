@@ -152,7 +152,10 @@ with col1: st.markdown('Data Analysis')
 with col2: st.markdown('`SQLite`, `pandas`, `numpy`')
 col1, col2 = st.columns([2, 3])
 with col1: st.markdown('Telecom')
-with col2: st.markdown('`AutoCAD`, `Trimble`, `spatialNET`, `QGIS`')
+with col2: st.markdown('`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
+col1, col2 = st.columns([2, 3])
+with col1: st.markdown('Person Skills')
+with col2: st.markdown('`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`')
 
 
 
