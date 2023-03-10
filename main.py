@@ -85,8 +85,9 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data Analyst**, Missing Link Technologies, Moncton, NB')
 with col3: st.markdown('September 2022 - Present')
 st.markdown('''
-- Coordinated and implemented an internal analytics project for MLT’s telecommunications division to develop a system to streamline OSP (Outside Plant) engineering and fibre planning processes.
-- Specialized in telecom data analytics and process improvement related to AutoCAD
+- While studying as a full-time student, transitioned to a part-time Data Analyst role
+- Coordinated and implemented analytics projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fibre planning processes.
+- Specialized in telecom data analytics and process improvement related to AutoCAD, Trimble, QGIS, etc.
 ''')
 st.markdown("")
 
@@ -97,8 +98,8 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data Analyst Intern**, Missing Link Technologies, Moncton, NB')
 with col3: st.markdown('May 2022 - August 2022')
 st.markdown('''
-- Coordinated and implemented an internal analytics project for MLT’s telecommunications division to develop a system to streamline OSP (Outside Plant) engineering and fibre planning processes.
-- Specialized in telecom data analytics and process improvement related to AutoCAD
+- Coordinated and implemented analytics projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fibre planning processes.
+- Specialized in telecom data analytics and process improvement related to AutoCAD, Trimble, QGIS, etc.
 ''')
 st.markdown("")
 
