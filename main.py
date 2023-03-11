@@ -87,7 +87,7 @@ with col3: st.markdown('September 2022 - Present')
 st.markdown('''
 - While studying as a full-time student, transitioned to a part-time Data Analyst role
 - Coordinated and implemented telecommunications data analytics projects
-- Improvind data ETL processes for field surveying and GPS data collection
+- Improving data ETL processes for field surveying and GPS data collection
 ''')
 st.markdown("")
 
