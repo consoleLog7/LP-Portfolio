@@ -69,7 +69,7 @@ st.markdown('''
 - 2nd Year Student
 - Order of Merit Scholar in the Schwartz School of Business
 - Member of the Dean's List
-- Taking courses in Information Technology, Project Management, SAP, Accounting, Financial Management, Computer Science, etc.
+- Taking courses in Information Technology, Project Management, Accounting, Financial Management, Computer Science, etc.
 ''')
 
 
@@ -86,8 +86,7 @@ with col2: st.markdown('**Data Analyst**, Missing Link Technologies, Moncton, NB
 with col3: st.markdown('September 2022 - Present')
 st.markdown('''
 - While studying as a full-time student, transitioned to a part-time Data Analyst role
-- Coordinated and implemented analytics projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fibre planning processes.
-- Specialized in telecom data analytics and process improvement related to AutoCAD, Trimble, QGIS, etc.
+- Coordinated and implemented data analytics and process improvement projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fiber planning processes.
 ''')
 st.markdown("")
 
@@ -98,9 +97,7 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data Analyst Intern**, Missing Link Technologies, Moncton, NB')
 with col3: st.markdown('May 2022 - August 2022')
 st.markdown('''
-- Coordinated and implemented analytics projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fibre planning processes.
-- Specialized in telecom data analytics and process improvement related to AutoCAD, Trimble, QGIS, etc.
-''')
+- During a summer internship, coordinated and implemented data analytics and process improvement projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fiber planning processes.''')
 st.markdown("")
 
 ### CurlData
@@ -109,7 +106,7 @@ with col1: st.image("CurlData.png")
 with col2: st.markdown('**Founder / Data Scientist**, CurlData')
 with col3: st.markdown('July 2021 - Present')
 st.markdown('''
-- Developed the world's first and only platform dedicated to promoting curling analytics through data-based research
+- Developed the world's first and only platform dedicated to data science and analytics in curling
 - Continues research and outreach through blog posts and team consulting
 - Maintains an extensive database of relevant curling data dating back 20 years
 ''')
@@ -143,7 +140,7 @@ st.markdown('''
 ''')
 col1, col2 = st.columns([2, 3])
 with col1: st.markdown('Programming')
-with col2: st.markdown('`Python`, `Javascript`, `C++`, `Java`, `HTML`')
+with col2: st.markdown('`Python`, `Javascript`, `C++`, `Java`')
 col1, col2 = st.columns([2, 3])
 with col1: st.markdown('Business Intelligence')
 with col2: st.markdown('`Process Improvement`, `Project Management`')
