@@ -86,7 +86,8 @@ with col2: st.markdown('**Data Analyst**, Missing Link Technologies, Moncton, NB
 with col3: st.markdown('September 2022 - Present')
 st.markdown('''
 - While studying as a full-time student, transitioned to a part-time Data Analyst role
-- Coordinated and implemented data analytics and process improvement projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fiber planning processes.
+- Coordinated and implemented telecommunications data analytics projects
+- Improvind data ETL processes for field surveying and GPS data collection
 ''')
 st.markdown("")
 
@@ -97,7 +98,9 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data Analyst Intern**, Missing Link Technologies, Moncton, NB')
 with col3: st.markdown('May 2022 - August 2022')
 st.markdown('''
-- During a summer internship, coordinated and implemented data analytics and process improvement projects for MLT’s telecommunications division to streamline OSP (Outside Plant) engineering and fiber planning processes.''')
+- During a summer internship, coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
+- Streamlined fiber planning processes, reducing manual effort in key business processes
+''')
 st.markdown("")
 
 ### CurlData
@@ -107,8 +110,9 @@ with col2: st.markdown('**Founder / Data Scientist**, CurlData')
 with col3: st.markdown('July 2021 - Present')
 st.markdown('''
 - Developed the world's first and only platform dedicated to data science and analytics in curling
-- Continues research and outreach through blog posts and team consulting
+- Conducts research and outreach through blog posts and team consulting
 - Maintains an extensive database of relevant curling data dating back 20 years
+- Developed a first-of-its-kind curling analytics dashboard available free to the curling community
 ''')
 st.markdown("")
 
