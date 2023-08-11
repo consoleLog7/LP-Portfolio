@@ -1,8 +1,9 @@
-# Imports
+## Imports
 import streamlit as st
 
-# Streamlit Page Setup
-st.set_page_config(page_title="Logan Pugsley", page_icon=r"https://media-exp1.licdn.com/dms/image/C4E03AQE3m1b8N94S4Q/profile-displayphoto-shrink_100_100/0/1651492727145?e=1665619200&v=beta&t=mF_H8aKHWI-0omiMUT42UuDMDOPkq9UDZEI8r5A5Shc")
+
+## Streamlit Page Setup
+st.set_page_config(page_title="Logan Pugsley", page_icon="Profile_Image.jpeg")
 st.write('<style>div.block-container{padding-top:3rem;}</style>', unsafe_allow_html=True)
 hide_menu_style = '''
 <style>
@@ -19,7 +20,8 @@ hide_menu_style = '''
 '''
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-# Streamlit Navigation
+
+## Streamlit Navigation Bar
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #326fa8;">
@@ -28,86 +30,61 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
-
-
-
-
-#### Main Header
-col1, col2 = st.columns(2)
+###Main Header
+col1, col2 = st.columns([5, 2])
 with col1:
     st.write('''
     # Logan Pugsley
-    ##### *Data Analyst / Student* 
+    ###### *Business Technology Professional / Student*
     ''')
-    st.markdown(":email: loganpugsley7@gmail.com")
+    st.markdown(":email: logan@pugsley.ca")
     st.markdown(":link: https://ca.linkedin.com/in/loganpugsley")
     st.markdown(":phone: (506) 863-4378")
-
 with col2:
     st.image("Profile_Image.jpeg")
 
 
 ##### Summary
 # st.markdown('## Summary', unsafe_allow_html=True)
-# st.info("blabkabla")
+# st.info('''
+# ''')
 
 
-
-
-##### Education
+## Education
 st.markdown('''## Education''')
-col1, col2, col3 = st.columns([1, 4, 1])
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1:
     st.image("STFX.png")
 with col2:
-    st.markdown('**Bachelor of Business Administration**, *St. Francis Xavier University*')
+    st.markdown('**Bachelor of Business Administration (BBA)**  \nSt. Francis Xavier University  \nAntigonish, NS')
 with col3:
-    st.markdown("2021-Present")
-st.markdown('Major: Enterprise Systems -  Subsidiary: Public Policy and Governance')
+    st.markdown('<div style="text-align: right;">September 2021 - Present', unsafe_allow_html=True)
+st.markdown('**Advanced Major:** Enterprise Systems  \n**Subsidiary:** Public Policy and Governance')
 st.markdown('''
-- 2nd Year Student
-- Order of Merit Scholar in the Schwartz School of Business
-- Member of the Dean's List
-- Taking courses in Information Technology, Project Management, Accounting, Financial Management, Computer Science, etc.
+- 3rd Year Student
+- Order of Merit Scholar at the Gerald Schwartz School of Business
+- Member of the Dean's List (top 5% of class)
 ''')
 
 
 
-##### Work Experience
-
-### MLT Part-Time
-st.markdown('''
 ## Work Experience
-''')
-col1, col2, col3 = st.columns([1, 4, 1])
-with col1: st.image("MLT.png")
-with col2: st.markdown('**Data Analyst**, Missing Link Technologies, Moncton, NB')
-with col3: st.markdown('September 2022 - Present')
+st.markdown('''## Work Experience''')
+            
+# BCL Internship
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("BCL.png")
+with col2: st.markdown('''**Information Management and Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, NB''')
+with col3: st.markdown('<div style="text-align: right;">May 2023 - Present', unsafe_allow_html=True)
 st.markdown('''
-- While studying as a full-time student, transitioned to a part-time Data Analyst role
-- Coordinated and implemented telecommunications data analytics projects
-- Improving data ETL processes for field surveying and GPS data collection
 ''')
 st.markdown("")
 
-
-### MLT Internship
-col1, col2, col3 = st.columns([1, 4, 1])
-with col1: st.image("MLT.png")
-with col2: st.markdown('**Data Analyst Intern**, Missing Link Technologies, Moncton, NB')
-with col3: st.markdown('May 2022 - August 2022')
-st.markdown('''
-- During a summer internship, coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
-- Streamlined fiber planning processes, reducing manual effort in key business processes
-''')
-st.markdown("")
-
-### CurlData
-col1, col2, col3 = st.columns([1, 4, 1])
+# CurlData
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("CurlData.png")
-with col2: st.markdown('**Founder / Data Scientist**, CurlData')
-with col3: st.markdown('July 2021 - Present')
+with col2: st.markdown('**Founder / Data Scientist**  \nCurlData  \nMoncton, NB')
+with col3: st.markdown('<div style="text-align: right;">July 2021 - Present', unsafe_allow_html=True)
 st.markdown('''
 - Developed the world's first and only platform dedicated to data science and analytics in curling
 - Conducts research and outreach through blog posts and team consulting
@@ -116,12 +93,36 @@ st.markdown('''
 ''')
 st.markdown("")
 
+# MLT Part-Time
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("MLT.png")
+with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemote''')
+with col3: st.markdown('<div style="text-align: right;">September 2022 - April 2023', unsafe_allow_html=True)
+st.markdown('''
+- While studying as a full-time student, transitioned to a part-time Data Analyst role
+- Coordinated and implemented telecommunications data analytics projects
+- Improved data ETL processes for field surveying and GPS data collection
+''')
+st.markdown("")
+
+# MLT Internship
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("MLT.png")
+with col2: st.markdown('''
+                       **Data Analyst Intern**  \nMissing Link Technologies  \nMoncton, NB
+                       ''')
+with col3: st.markdown('<div style="text-align: right;">May 2022 - August 2022</div>', unsafe_allow_html=True)
+st.markdown('''
+- During a summer internship, coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
+- Streamlined fiber planning processes, reducing manual effort in key business processes
+''')
+st.markdown("")
 
 # MLT Co-Op
-col1, col2, col3 = st.columns([1, 4, 1])
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("MLT.png")
-with col2: st.markdown('**Data and Analytics Co-Op**, Missing Link Technologies, Moncton, NB')
-with col3: st.markdown('January 2021 - June 2021')
+with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, NB')
+with col3: st.markdown('<div style="text-align: right;">January 2021 - June 2021', unsafe_allow_html=True)
 st.markdown('''
 - Worked with MLT's Data and Analytics team through a daily Co-Op placement
 - Developed technical and analytical skills by working on a complete data research project
@@ -129,34 +130,44 @@ st.markdown('''
 st.markdown("")
 
 
-#####################
-# st.markdown('''
-# ## Certifications
-# ''')
-# col1, col2 = st.columns([3,2])
-# with col1: st.markdown('IBM Introduction to Data Science')
-# with col2: st.markdown('https://www.edx.org/course/intro-to-data-science')
+## Certifications & Courses
+st.markdown('''## Certifications & Courses''')
+
+# IBM Introduction to Data Science
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("AWS_Course.png")
+with col2: st.markdown('**AWS Cloud Essentials Course**')
+with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+st.markdown("")
+
+# IBM Introduction to Data Science
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("IBM_Data.png")
+with col2: st.markdown('**IBM Introduction to Data Science Certificate**')
+with col3: st.markdown('<div style="text-align: right;">December 2020', unsafe_allow_html=True)
+st.markdown("")
 
 
 #####################
 st.markdown('''
 ## Skills
 ''')
-col1, col2 = st.columns([2, 3])
-with col1: st.markdown('Programming')
-with col2: st.markdown('`Python`, `Javascript`, `C++`, `Java`')
-col1, col2 = st.columns([2, 3])
-with col1: st.markdown('Business Intelligence')
-with col2: st.markdown('`Process Improvement`, `Project Management`')
-col1, col2 = st.columns([2, 3])
-with col1: st.markdown('Data Analysis')
-with col2: st.markdown('`SQL`, `pandas`, `numpy`')
-col1, col2 = st.columns([2, 3])
-with col1: st.markdown('Telecom')
-with col2: st.markdown('`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
-col1, col2 = st.columns([2, 3])
-with col1: st.markdown('Person Skills')
-with col2: st.markdown('`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`')
+col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
+with col1: st.markdown('**Cybersecurity**')
+with col2: st.markdown('**Project Management**')
+with col3: st.markdown('**Programming**  \n`Python`, `Javascript`, `C++`, `Java`, `Visual Basic`, `HTML`')
+with col4: st.markdown('**Business Intelligence**')
+col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
+with col1: st.markdown('**Process Automation**')
+with col2: st.markdown('**Data & Analytics**  \n`SQL`, `pandas`, `numpy`, `Data Governance`')
+with col3: st.markdown('**Telecom**  \n`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
+with col4: st.markdown('**Person Skills**  \n`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`')
+col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
+with col1: st.markdown('**Systems Integration**  \n`API Development`')
+with col2: st.markdown('**IT Risk Management**')
+with col3: st.markdown('**Regulatory Compliance**')
+with col4: st.markdown('**Cloud Computing**  \n`AWS`')
+col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
 
 
 
