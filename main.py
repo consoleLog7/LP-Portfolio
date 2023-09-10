@@ -153,22 +153,20 @@ st.markdown('''
 ## Skills
 ''')
 col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**Cybersecurity**')
-with col2: st.markdown('**Project Management**')
-with col3: st.markdown('**Programming**  \n`Python`, `Javascript`, `C++`, `Java`, `Visual Basic`, `HTML`')
-with col4: st.markdown('**Business Intelligence**')
+with col1: st.markdown('**Cybersecurity**  \n`Threat Hunting`, `Day-to-Day Operations`, `Event Log Monitoring`, `Incident Response and Remediation`, `Risk Identification`')
+with col2: st.markdown('**Data Analytics & Business Intelligence**  \n`Data Engineering`, `Data Visualization`, `Extract, Transform, Load (ETL)`, `Data Governance`')
+with col3: st.markdown('**Programming**  \n`Python`, `Javascript`, `C++`, `Java`, `Visual Basic`, `HTML`, `ABAP`')
+with col4: st.markdown('**Person Skills**  \n`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`, `Communicator`')
 col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**Process Automation**')
-with col2: st.markdown('**Data & Analytics**  \n`SQL`, `pandas`, `numpy`, `Data Governance`')
-with col3: st.markdown('**Telecom**  \n`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
-with col4: st.markdown('**Person Skills**  \n`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`')
+with col1: st.markdown('**Cloud Computing**  \n`Amazon Web Services (AWS)`')
+with col2: st.markdown('**Telecommunications**  \n`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
+with col3: st.markdown('**Systems Integration**  \n`API Development`, `SAP Configuration`')
+with col4: st.markdown('**Databases**  \n`SQL`, `Oracle`, `MySQL`, `SQLite`')
 col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**Systems Integration**  \n`API Development`')
-with col2: st.markdown('**IT Risk Management**')
-with col3: st.markdown('**Regulatory Compliance**')
-with col4: st.markdown('**Cloud Computing**  \n`AWS`')
-col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-
+with col1: st.markdown('**IT Governance, Risk Management, and Compliance**')
+with col2: st.markdown('**Regulatory Compliance**')
+with col3: st.markdown('**Project Management**')
+with col4: st.markdown('**Business Process Automation**')
 
 
 #####################
@@ -178,4 +176,3 @@ st.markdown('''
 st.write("[CurlData](https://www.curldata.ca)")
 st.write("[Guest speaker on The Data Crunch podcast](https://www.curldata.ca/podcast)")
 st.write("[Github Profile](https://github.com/consoleLog7)")
-
