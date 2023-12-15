@@ -30,7 +30,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-###Main Header
+### Main Header
 col1, col2 = st.columns([5, 2])
 with col1:
     st.write('''
@@ -44,10 +44,16 @@ with col2:
     st.image("Profile_Image.jpeg")
 
 
-##### Summary
-# st.markdown('## Summary', unsafe_allow_html=True)
-# st.info('''
-# ''')
+### Summary
+st.markdown("")
+st.markdown('''## About''')
+st.write('''
+    A highly motivated business technology professional specializing in data analytics, process automation, cybersecurity, and systems integration. At twenty years old, experienced in multiple industries, including insurance, telecommunications, and sports. Focused on building an exciting and meaningful career while earning an education.
+
+    Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various cybersecurity, systems integration, risk, compliance, and analytics initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
+
+    During the school year, a third-year student at St. Francis Xavier University working towards a Bachelor of Business Administration, Advanced Major in Enterprise Systems.
+''')
 
 
 ## Education
@@ -88,7 +94,7 @@ with col3: st.markdown('<div style="text-align: right;">July 2021 - Present', un
 st.markdown('''
 - Developed the world's first and only platform dedicated to data science and analytics in curling
 - Conducts research and outreach through blog posts and team consulting
-- Maintains an extensive database of relevant curling data dating back 20 years
+- Maintains an extensive database of relevant curling data dating back 25 years
 - Developed a first-of-its-kind curling analytics dashboard available free to the curling community
 ''')
 st.markdown("")
@@ -100,8 +106,9 @@ with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemot
 with col3: st.markdown('<div style="text-align: right;">September 2022 - April 2023', unsafe_allow_html=True)
 st.markdown('''
 - While studying as a full-time student, transitioned to a part-time Data Analyst role
-- Coordinated and implemented telecommunications data analytics projects
 - Improved data ETL processes for field surveying and GPS data collection
+- Coordinated and implemented telecommunications data analytics and process automation projects
+- Improved data quality by using technology to reduce human error, delivering improved value to clients
 ''')
 st.markdown("")
 
@@ -113,8 +120,9 @@ with col2: st.markdown('''
                        ''')
 with col3: st.markdown('<div style="text-align: right;">May 2022 - August 2022</div>', unsafe_allow_html=True)
 st.markdown('''
-- During a summer internship, coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
-- Streamlined fiber planning processes, reducing manual effort in key business processes
+- Coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
+- Established an innovative research program for process automation in the telecommunications industry
+- Streamlined fiber planning processes, reducing manual effort in key business areas, saving enormous amounts of resource hours each year
 ''')
 st.markdown("")
 
@@ -124,14 +132,15 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, NB')
 with col3: st.markdown('<div style="text-align: right;">January 2021 - June 2021', unsafe_allow_html=True)
 st.markdown('''
-- Worked with MLT's Data and Analytics team through a daily Co-Op placement
-- Developed technical and analytical skills by working on a complete data research project
+- Through a daily Co-Op placement, was mentored by MLT's Data and Analytics team
+- Developed technical, analytical, and project management skills by coordinating a data research project
+- Reviewed projects completed for commercial clients
 ''')
 st.markdown("")
 
 
 ## Certifications & Courses
-st.markdown('''## Certifications & Courses''')
+st.markdown('''## Professional Certifications & Courses''')
 
 # IBM Introduction to Data Science
 col1, col2, col3 = st.columns([1, 4, 2.2])
@@ -144,7 +153,7 @@ st.markdown("")
 col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("IBM_Data.png")
 with col2: st.markdown('**IBM Introduction to Data Science Certificate**')
-with col3: st.markdown('<div style="text-align: right;">December 2020', unsafe_allow_html=True)
+with col3: st.markdown('<div style="text-align: right;">January 2021', unsafe_allow_html=True)
 st.markdown("")
 
 
@@ -152,22 +161,21 @@ st.markdown("")
 st.markdown('''
 ## Skills
 ''')
-col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**Cybersecurity**  \n`Threat Hunting`, `Day-to-Day Operations`, `Event Log Monitoring`, `Incident Response and Remediation`, `Risk Identification`')
-with col2: st.markdown('**Data Analytics & Business Intelligence**  \n`Data Engineering`, `Data Visualization`, `Extract, Transform, Load (ETL)`, `Data Governance`')
-with col3: st.markdown('**Programming**  \n`Python`, `Javascript`, `C++`, `Java`, `Visual Basic`, `HTML`, `ABAP`')
-with col4: st.markdown('**Person Skills**  \n`Polite`, `Lifelong Learner`, `Team Player`, `Critical Thinker`, `Organized`, `Communicator`')
-col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**Cloud Computing**  \n`Amazon Web Services (AWS)`')
-with col2: st.markdown('**Telecommunications**  \n`AutoCAD`, `Trimble`, `Data Management`, `QGIS`')
-with col3: st.markdown('**Systems Integration**  \n`API Development`, `SAP Configuration`')
-with col4: st.markdown('**Databases**  \n`SQL`, `Oracle`, `MySQL`, `SQLite`')
-col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
-with col1: st.markdown('**IT Governance, Risk Management, and Compliance**')
-with col2: st.markdown('**Regulatory Compliance**')
-with col3: st.markdown('**Project Management**')
-with col4: st.markdown('**Business Process Automation**')
-
+col1, col2 = st.columns([4, 4])
+with col1: st.markdown('**Data Analytics & Business Intelligence**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`  \n`- Data Governance`  \n`- Process Automation`')
+with col2: st.markdown('**Cybersecurity**  \n`- Day-to-Day Operations`  \n`- Event Log Monitoring`  \n`- Incident Response`  \n`- Vulnerability Management`  \n`- Risk Mitigation`')
+col1, col2 = st.columns([4, 4])
+with col1: st.markdown('**Programming**  \n`- Python`  \n`- Javascript`  \n`- C++`  \n`- Java`  \n`- Visual Basic`  \n`- HTML`  \n`- ABAP`')
+with col2: st.markdown('**Databases**  \n`- SQL`  \n`- Oracle`  \n`- MySQL`  \n`- SQLite`  \n`- SAP S/4HANA`')
+col1, col2 = st.columns([4, 4])
+with col1: st.markdown('**Systems Integration**  \n`- Custom API Development`  \n`- REST API`  \n`- SAP Configuration`')
+with col2: st.markdown('**IT Vendor Management**  \n`- Configuration Management Database (CMDB) Development`')
+col1, col2 = st.columns([4, 4])
+with col1: st.markdown('**Cloud Computing**  \n`- Amazon Web Services (AWS)`  \n`- Microsoft Office 365`')
+with col2: st.markdown('**Project Management**  \n`- YouTrack`  \n`- Jira`')
+col1, col2 = st.columns([4, 4])
+with col1: st.markdown('**Regulatory Compliance**  \n`- Office of the Superintendent of Financial Institutions (OSFI)`')
+with col2: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
 
 #####################
 st.markdown('''
