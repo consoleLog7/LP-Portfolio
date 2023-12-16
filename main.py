@@ -181,6 +181,7 @@ with col2: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organize
 st.markdown('''
 ## Additional Resources / Information
 ''')
+st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/Resume.pdf)")
 st.write("[CurlData](https://www.curldata.ca)")
 st.write("[Guest speaker on The Data Crunch podcast](https://www.curldata.ca/podcast)")
 st.write("[Github Profile](https://github.com/consoleLog7)")
