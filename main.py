@@ -142,10 +142,38 @@ st.markdown("")
 ## Certifications & Courses
 st.markdown('''## Professional Certifications & Courses''')
 
-# IBM Introduction to Data Science
+# Google Generative AI Fundamentals
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("GoogleGenAIFundamentals.png")
+with col2: st.markdown('**Google Generative AI Fundamentals Certificate**')
+with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+st.markdown("")
+
+# Google Introduction to Responsible AI
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("GoogleIntroResponsibleAI.png")
+with col2: st.markdown('**Google Introduction to Responsible AI Course**')
+with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+st.markdown("")
+
+# Google Introduction to Large Language Models
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("GoogleIntroductionLLM.png")
+with col2: st.markdown('**Google Introduction to Large Language Models Course**')
+with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+st.markdown("")
+
+# Google Introduction to Generative AI
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("GoogleIntroductionGenAI.png")
+with col2: st.markdown('**Google Introduction to Generative AI Course**')
+with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+st.markdown("")
+
+# AWS Cloud Essentials
 col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("AWS_Course.png")
-with col2: st.markdown('**AWS Cloud Essentials Course**')
+with col2: st.markdown('**AWS Cloud Essentials Certificate**')
 with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
 st.markdown("")
 
@@ -183,5 +211,6 @@ st.markdown('''
 ''')
 st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/Resume.pdf)")
 st.write("[CurlData](https://www.curldata.ca)")
-st.write("[Guest speaker on The Data Crunch podcast](https://www.curldata.ca/podcast)")
-st.write("[Github Profile](https://github.com/consoleLog7)")
+st.write("[Guest Appearance on Podcast](https://www.curldata.ca/podcast)")
+st.write("[GitHub Profile](https://github.com/consoleLog7)")
+st.write("\n[About this Website](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/About.pdf)")
