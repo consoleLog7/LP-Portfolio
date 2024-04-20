@@ -74,6 +74,48 @@ st.markdown('''
 - XREC Student Leadership Award, 2023-2024
 - Most Valuable Player StFX Men’s Curling, 2023-2024
 ''')
+with st.expander("View Courses"):
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**BSAD101: Introduction to Business**")
+    with col2: st.markdown("**BSAD102: Business Decision-Making**")
+    with col3: st.markdown("**ECON101: Introductory Microeconomics**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**ECON102: Introductory Macroecnomics**")
+    with col2: st.markdown("**MATH105: Business Mathematics**")
+    with col3: st.markdown("**STAT101: Introductory Statistics**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**CSCI161: Intro to Programming**")
+    with col2: st.markdown("**CSCI162: Programming & Data Structures**")
+    with col3: st.markdown("**PGOV101: Public Policy & Governance**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**PHYS171: Intro to Astronomy I**")
+    with col2: st.markdown("**BSAD221: Intro Financial Accounting**")
+    with col3: st.markdown("**BSAD223: Intro Managerial Accounting**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**BSAD231: Foundations of Marketing**")
+    with col2: st.markdown("**BSAD241: Financial Management I**")
+    with col3: st.markdown("**BSAD261: Organizational Behaviour**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**BSAD281: Foundations of Information Technology**")
+    with col2: st.markdown("**CSCI223: Introduction to Data Science**")
+    with col3: st.markdown("**MATH382: Sports Analytics**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**PGOV201: Public Policy**")
+    with col2: st.markdown("**PGOV202: Governance**")
+    with col3: st.markdown("**BSAD321: Intermediate Managerial Accounting I**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**BSAD382: Introduction to Enterprise Systems and SAP**")
+    with col2: st.markdown("**BSAD385: Business Programming and ABAP**")
+    with col3: st.markdown("**BSAD386: Project Management and Practice**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**PGOV399: Local Government**")
+    with col2: st.markdown("**BSAD322: Intermediate Managerial Accounting II**")
+    with col3: st.markdown("**BSAD357: International Business**")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("**BSAD384: Data Management and Analytics**")
+    with col2: st.markdown("**BSAD389: Technology and Innovation Management**")
+    with col3: st.markdown("**IDS305: Immersion Service Learning**")
+    st.markdown("")
 
 
 
@@ -201,9 +243,9 @@ col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
 
 
-## Professional Development Courses
-st.markdown('''## Professional Development Courses''')
-with st.expander("Expand to View Courses"):
+## Certifications and Professional Development Courses
+st.markdown('''## Certifications and Professional Development Courses''')
+with st.expander("View Courses"):
     # AWS Skills Centers: Becoming a Cloud Practitioner
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
@@ -298,7 +340,7 @@ with st.expander("Expand to View Courses"):
     # Machine Learning Essentials for Business and Technical Decision Makers
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Machine Learning Essentials for Business and Technical Decision Makers*')
+    with col2: st.markdown('**Machine Learning Essentials for Business and Technical Decision Makers**')
     with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
     st.markdown("")
 
@@ -414,13 +456,6 @@ with st.expander("Expand to View Courses"):
     with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
     st.markdown("")
 
-    # AWS Cloud Essentials
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Course.png")
-    with col2: st.markdown('**AWS Cloud Essentials Certificate**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
     # AWS Cloud Practitioner Essentials
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
@@ -452,7 +487,7 @@ with st.expander("Expand to View Courses"):
     # AWS Foundations: Getting Started with the AWS Cloud
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Billing and Cost Management**')
+    with col2: st.markdown('**AWS Foundations: Getting Started with the AWS Cloud**')
     with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
     st.markdown("")
 
@@ -472,3 +507,4 @@ st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.c
 st.write("[CurlData](https://www.curldata.ca)")
 st.write("[Guest Appearance on Podcast](https://www.curldata.ca/podcast)")
 st.write("[GitHub Profile](https://github.com/consoleLog7)")
+st.write("[View my Code for This Website](https://github.com/consoleLog7/LP-Portfolio)")
