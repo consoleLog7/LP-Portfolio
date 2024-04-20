@@ -181,52 +181,6 @@ st.markdown('''
 st.markdown("")
 
 
-## Certifications & Courses
-st.markdown('''## Professional Certifications & Courses''')
-
-# Google Generative AI Fundamentals
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("GoogleGenAIFundamentals.png")
-with col2: st.markdown('**Google Generative AI Fundamentals Certificate**')
-with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-st.markdown("")
-
-# Google Introduction to Responsible AI
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("GoogleIntroResponsibleAI.png")
-with col2: st.markdown('**Google Introduction to Responsible AI Course**')
-with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-st.markdown("")
-
-# Google Introduction to Large Language Models
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("GoogleIntroductionLLM.png")
-with col2: st.markdown('**Google Introduction to Large Language Models Course**')
-with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-st.markdown("")
-
-# Google Introduction to Generative AI
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("GoogleIntroductionGenAI.png")
-with col2: st.markdown('**Google Introduction to Generative AI Course**')
-with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-st.markdown("")
-
-# AWS Cloud Essentials
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("AWS_Course.png")
-with col2: st.markdown('**AWS Cloud Essentials Certificate**')
-with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-st.markdown("")
-
-# IBM Introduction to Data Science
-col1, col2, col3 = st.columns([1, 4, 2.2])
-with col1: st.image("IBM_Data.png")
-with col2: st.markdown('**IBM Introduction to Data Science Certificate**')
-with col3: st.markdown('<div style="text-align: right;">January 2021', unsafe_allow_html=True)
-st.markdown("")
-
-
 #####################
 st.markdown('''
 ## Skills
@@ -245,6 +199,270 @@ with col1: st.markdown('**IT Service Management**  \n`- IT Vendor Management`  \
 with col2: st.markdown('**Project Management**  \n`- Agile Project Management`  \n`- YouTrack`  \n`- Jira`')
 col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
+
+
+## Professional Development Courses
+st.markdown('''## Professional Development Courses''')
+with st.expander("Expand to View Courses"):
+    # AWS Skills Centers: Becoming a Cloud Practitioner
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Skills Centers: Becoming a Cloud Practitioner**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Skill Builder Learner Guide
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Skill Builder Learner Guide**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to AWS Marketplace
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to AWS Marketplace**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Marketplace Overview
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Marketplace Overview**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+     # Decarbonization with AWS Introduction
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Decarbonization with AWS Introduction**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Cloud Economics for Healthcare
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Cloud Economics for Healthcare**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Cloud Economics for Banking
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Cloud Economics for Banking**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Cloud for CTOs
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Cloud for CTOs**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Cloud for CHROs
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Cloud for CHROs**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Shared Responsibility Model
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Shared Responsibility Model**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Data for Executives
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Data for Executives**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Amazon Transcribe Getting Started
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Amazon Transcribe Getting Started**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Amazon Athena
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Amazon Athena**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Machine Learning Essentials for Business and Technical Decision Makers
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Machine Learning Essentials for Business and Technical Decision Makers*')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Amazon Lex Getting Started
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Amazon Lex Getting Started**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Machine Learning
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Machine Learning**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Unleashing Innovation: The Generative AI Revolution
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Unleashing Innovation: The Generative AI Revolution**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Planning a Generative AI Project
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Planning a Generative AI Project**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Generative AI
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Generative AI**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Amazon Redshift Introduction
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Amazon Redshift Introduction**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS for SAP Fundamentals
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS for SAP Fundamentals**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Amazon Quicksight
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Amazon Quicksight**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Amazon Kinesis Analytics for Java Applications
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Amazon Kinesis Analytics for Java Applications**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to Amazon Kinesis Analytics
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to Amazon Kinesis Analytics**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Introduction to AWS Data Pipeline
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Introduction to AWS Data Pipeline**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWSome Day
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWSome Day Conference**')
+    with col3: st.markdown('<div style="text-align: right;">February 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Google Generative AI Fundamentals
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("GoogleGenAIFundamentals.png")
+    with col2: st.markdown('**Google Generative AI Fundamentals Certificate**')
+    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Google Introduction to Responsible AI
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("GoogleIntroResponsibleAI.png")
+    with col2: st.markdown('**Google Introduction to Responsible AI Course**')
+    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Google Introduction to Large Language Models
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("GoogleIntroductionLLM.png")
+    with col2: st.markdown('**Google Introduction to Large Language Models Course**')
+    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Google Introduction to Generative AI
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("GoogleIntroductionGenAI.png")
+    with col2: st.markdown('**Google Introduction to Generative AI Course**')
+    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Cloud Essentials
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Course.png")
+    with col2: st.markdown('**AWS Cloud Essentials Certificate**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Cloud Practitioner Essentials
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Cloud Practitioner Essentials**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Job Roles in the Cloud
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Job Roles in the Cloud**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Getting Started with Cloud Acquisition
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Getting Started with Cloud Acquisition**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Billing and Cost Management
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Billing and Cost Management**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # AWS Foundations: Getting Started with the AWS Cloud
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Billing and Cost Management**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
+    # IBM Introduction to Data Science
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("IBM_Data.png")
+    with col2: st.markdown('**IBM Introduction to Data Science Certificate**')
+    with col3: st.markdown('<div style="text-align: right;">January 2021', unsafe_allow_html=True)
+    st.markdown("")
+
 
 #####################
 st.markdown('''
