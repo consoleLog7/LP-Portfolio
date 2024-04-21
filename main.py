@@ -246,6 +246,27 @@ with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organize
 ## Certifications and Professional Development Courses
 st.markdown('''## Certifications and Professional Development Courses''')
 with st.expander("View Courses"):
+    # Cloud Practitioner - Cloud Quest Completion Badge
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Cloud_Quest.png")
+    with col2: st.markdown('**Cloud Practitioner - Cloud Quest Completion Badge**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("") 
+
+    # AWS Technical Essentials
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**AWS Technical Essentials**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
+    # Getting Started with AWS Cloud Essentials
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Getting Started with AWS Cloud Essentials**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("")
+
     # AWS Skills Centers: Becoming a Cloud Practitioner
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
@@ -462,6 +483,14 @@ with st.expander("View Courses"):
     with col2: st.markdown('**AWS Cloud Practitioner Essentials**')
     with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
     st.markdown("")
+
+    # Cloud Essentials - Knowledge Badge
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Learning.png")
+    with col2: st.markdown('**Cloud Essentials - Knowledge Badge**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
 
     # Job Roles in the Cloud
     col1, col2, col3 = st.columns([1, 4, 2.2])
