@@ -444,7 +444,7 @@ with st.expander("View Courses"):
 
     # AWSome Day
     col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
+    with col1: st.image("AWSOMEDAY.jpeg")
     with col2: st.markdown('**AWSome Day Conference**')
     with col3: st.markdown('<div style="text-align: right;">February 2024', unsafe_allow_html=True)
     st.markdown("")
