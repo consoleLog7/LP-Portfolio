@@ -477,6 +477,13 @@ with st.expander("View Courses"):
     with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
     st.markdown("")
 
+   # AWS Cloud Essentials - Badge
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWS_Course.png")
+    with col2: st.markdown('**AWS Cloud Essentials - Badge**')
+    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
+    st.markdown("")
+
     # AWS Cloud Practitioner Essentials
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
