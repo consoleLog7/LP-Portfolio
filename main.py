@@ -243,9 +243,15 @@ col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
 
 
-## Certifications and Professional Development Courses
-st.markdown('''## Certifications and Professional Development Courses''')
-with st.expander("View Courses"):
+## Certifications and Professional Development
+st.markdown('''## Certifications and Professional Development''')
+# AWS Certified Cloud Practitioner Exam Prep Course
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("AWS_CCP.png")
+with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Services (AWS)')
+with col3: st.markdown('Issued: April 2024', unsafe_allow_html=True)
+st.markdown("") 
+with st.expander("View Professional Development Courses and Conferences"):
     # AWS Certified Cloud Practitioner Exam Prep Course
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
