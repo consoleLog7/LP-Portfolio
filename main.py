@@ -252,6 +252,13 @@ with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Servi
 with col3: st.markdown('Issued: April 2024', unsafe_allow_html=True)
 st.markdown("") 
 with st.expander("View Professional Development Courses and Conferences"):
+    # MS-900T01--A: Microsoft 365 Fundamentals
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("MS_Learn.png")
+    with col2: st.markdown('**Microsoft 365 Fundamentals**')
+    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
+    st.markdown("") 
+
     # AWS Certified Cloud Practitioner Exam Prep Course
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("AWS_Learning.png")
