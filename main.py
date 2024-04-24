@@ -48,11 +48,13 @@ with col2:
 st.markdown("")
 st.markdown('''## About''')
 st.write('''
-A highly motivated business technology professional specializing in data analytics, business process automation, cybersecurity, and systems integration. At twenty-one years old, experienced in multiple industries, including insurance, telecommunications, and sports. Focused on building an exciting and meaningful career while earning an education.
+A highly motivated business technology professional specializing in the development and implementation of innovative solutions to make data-driven decisions, automate processes, integrate systems, and exceed cybersecurity requirements. At just twenty-one years old, brings both tremendous business expertise and technical skills, and is focused on building and exciting and meaningful career while earning an education. Has a track-record of driving innovation and improving business outcomes with specific experience in financial, telecommunications, and sport industries.
 
-Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various technology, systems integration, process automation, IT service management, and analytics initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
+Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various technology initiatives both for the information technology department and overall business, driving innovation and data-driven decision-making by developing innovative solutions, improving processes, integrating systems, enhancing IT service management processes, leveraging cloud technology, and enhancing information security initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
 
-During the school year, a third-year student at St. Francis Xavier University's Gerald Schwartz School of Business working towards a Bachelor of Business Administration, Advanced Major in Enterprise Systems.
+During the school year, currently a third-year student at the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. Through the BBA Enterprise Systems program, studying and gaining experience in technology and innovation courses, analytical accounting courses, as well as general business skills in human resources, finance, marketing, and international business. In addition to being a full-time student, is a student-athlete on StFX’s Men’s Curling team, developing, and training for competition against other universities at the annual Atlantic University Sport Curling Championship.
+
+Driven by a relentless pursuit of excellence and continuous development, motivated to make a significant impact in the realms of business and technology, by leveraging a unique blend of both business and technological skills, and passion to drive meaningful change for companies.
 ''')
 
 
