@@ -75,6 +75,7 @@ st.markdown('''
 - Full-time student athlete as skip of the men’s curling team
 - XREC Student Leadership Award, 2023-2024
 - Most Valuable Player StFX Men’s Curling, 2023-2024
+- Service Learning Program Completion, 2023-2024
 ''')
 with st.expander("View Courses"):
     col1, col2, col3 = st.columns([3, 3, 3])
