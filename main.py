@@ -562,7 +562,7 @@ with st.expander("View Professional Development Courses and Conferences"):
 st.markdown('''
 ## Additional Resources / Information
 ''')
-st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/Resume.pdf)")
+st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/Resume+-+Logan+Pugsley.pdf)")
 st.write("[CurlData](https://www.curldata.ca)")
 st.write("[Guest Appearance on Podcast](https://www.curldata.ca/podcast)")
 st.write("[GitHub Profile](https://github.com/consoleLog7)")
