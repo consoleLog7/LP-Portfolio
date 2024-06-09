@@ -48,13 +48,11 @@ with col2:
 st.markdown("")
 st.markdown('''## About''')
 st.write('''
-A highly motivated business technology professional specializing in the development and implementation of innovative solutions to make data-driven decisions, automate processes, integrate systems, and exceed cybersecurity requirements. At just twenty-one years old, brings both tremendous business expertise and technical skills, and is focused on building an exciting and meaningful career while earning an education. Has a track-record of driving innovation and improving business outcomes with specific experience in financial, telecommunications, and sport industries.
-
-Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various technology initiatives both for the information technology department and overall business, driving innovation and data-driven decision-making by developing innovative solutions, improving processes, integrating systems, enhancing IT service management processes, leveraging cloud technology, and enhancing information security initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
-
-During the school year, currently a third-year student at the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. Through the BBA Enterprise Systems program, studying and gaining experience in technology and innovation courses, analytical accounting courses, as well as general business skills in human resources, finance, marketing, and international business. In addition to being a full-time student, is a student-athlete on StFX’s Men’s Curling team, developing and training for competition against other universities, and representing StFX at the annual Atlantic University Sport Curling Championships.
-
-Driven by a relentless pursuit of excellence and continuous development, motivated to make a significant impact in the realms of business and technology, by leveraging a unique blend of both business and technological skills, and passion to drive meaningful change for companies.
+A highly motivated business technology professional that specializes in developing and implementing innovative solutions helping businesses make data-driven decisions, automate processes, and reach their strategic objectives. At just twenty-one years old, brings both tremendous business expertise and technical skills, and is focused on building an exciting and meaningful career while earning an education. Has a track-record of driving innovation and improving business outcomes with specific experience in financial, telecommunications, and sport industries.
+         
+Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various technology initiatives throughout the business, driving innovation and data-driven decision-making by integrating systems, improving processes, streamlining IT service management processes, leveraging cloud technology, and enhancing information security initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
+         
+During the school year, currently a third-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. In addition to being a full-time student, is a student-athlete on StFX’s Men’s Curling team, developing and training to represent the university for competition against other universities.
 ''')
 
 
