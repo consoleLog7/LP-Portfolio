@@ -5,8 +5,7 @@ import streamlit as st
 ## Streamlit Page Setup
 st.set_page_config(page_title="Logan Pugsley", page_icon="Profile_Image.jpeg")
 st.write('<style>div.block-container{padding-top:3rem;}</style>', unsafe_allow_html=True)
-hide_menu_style = '''
-<style>
+st.markdown('''<style>
     #MainMenu {
         visibility: hidden;
     }
@@ -16,18 +15,16 @@ hide_menu_style = '''
     header {
         visibility: hidden;
     }
-</style>
-'''
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+    </style>''', unsafe_allow_html=True)
 
 
 ## Streamlit Navigation Bar
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #326fa8;">
-  <a class="navbar-brand" href="https://www.linkedin.com/in/loganpugsley" target="_blank">Logan Pugsley</a>
-</nav>
-""", unsafe_allow_html=True)
+st.markdown('''
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #326fa8;">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/loganpugsley" target="_blank">Logan Pugsley</a>
+    </nav>
+    ''', unsafe_allow_html=True)
 
 
 ### Main Header
@@ -67,13 +64,13 @@ with col3:
     st.markdown('<div style="text-align: right;">September 2021 - Present', unsafe_allow_html=True)
 st.markdown('**Advanced Major:** Enterprise Systems  \n**Subsidiaries:** Computer Science, Public Policy and Governance')
 st.markdown('''
-- 3rd year student
-- Order of Merit Scholar at the Gerald Schwartz School of Business
-- Member of the Dean’s List
-- Full-time student athlete as skip of the men’s curling team
-- XREC Student Leadership Award, 2023-2024
-- Most Valuable Player StFX Men’s Curling, 2023-2024
-- Service Learning Program Completion, 2023-2024
+    - 3rd year student
+    - Order of Merit Scholar at the Gerald Schwartz School of Business
+    - Member of the Dean’s List
+    - Full-time student athlete as skip of the men’s curling team
+    - XREC Student Leadership Award, 2023-2024
+    - Most Valuable Player StFX Men’s Curling, 2023-2024
+    - Service Learning Program Completion, 2023-2024
 ''')
 with st.expander("View Courses"):
     col1, col2, col3 = st.columns([3, 3, 3])
@@ -138,10 +135,10 @@ with col1: st.image("CurlData.png")
 with col2: st.markdown('**Founder / Data Scientist**  \nCurlData  \nMoncton, NB')
 with col3: st.markdown('<div style="text-align: right;">July 2021 - Present', unsafe_allow_html=True)
 st.markdown('''
-- Developed the world's first platform dedicated to data analytics in curling
-- Consults with curling teams to improve performance using data
-- Researches curling topics through blog posts and a proprietary curling analytics dashboard
-- Maintains an extensive database of relevant curling data spanning 25 years
+    - Developed the world's first platform dedicated to data analytics in curling
+    - Consults with curling teams to improve performance using data
+    - Researches curling topics through blog posts and a proprietary curling analytics dashboard
+    - Maintains an extensive database of relevant curling data spanning 25 years
 ''')
 st.markdown("")
 
@@ -151,24 +148,22 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemote''')
 with col3: st.markdown('<div style="text-align: right;">September 2022 - April 2023', unsafe_allow_html=True)
 st.markdown('''
-- While studying as a full-time student, transitioned to a part-time Data Analyst role
-- Improved data ETL processes for telecommunications field surveying and GPS data collection
-- Coordinated and implemented telecommunications fiber planning process automation projects
-- Improved data quality using analytics to reduce human error and deliver better results to clients
+    - While studying as a full-time student, transitioned to a part-time Data Analyst role
+    - Improved data ETL processes for telecommunications field surveying and GPS data collection
+    - Coordinated and implemented telecommunications fiber planning process automation projects
+    - Improved data quality using analytics to reduce human error and deliver better results to clients
 ''')
 st.markdown("")
 
 # MLT Internship
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("MLT.png")
-with col2: st.markdown('''
-                       **Data Analyst Intern**  \nMissing Link Technologies  \nMoncton, NB
-                       ''')
+with col2: st.markdown('''**Data Analyst Intern**  \nMissing Link Technologies  \nMoncton, NB''')
 with col3: st.markdown('<div style="text-align: right;">May 2022 - August 2022</div>', unsafe_allow_html=True)
 st.markdown('''
-- Established an innovative research program for process automation in telecom planning
-- Streamlined fiber planning processes, reducing manual effort in key business areas, saving enormous amounts of resource hours each year
-- Coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
+    - Established an innovative research program for process automation in telecom planning
+    - Streamlined fiber planning processes, reducing manual effort in key business areas, saving enormous amounts of resource hours each year
+    - Coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
 ''')
 st.markdown("")
 
@@ -178,9 +173,9 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, NB')
 with col3: st.markdown('<div style="text-align: right;">January 2021 - June 2021', unsafe_allow_html=True)
 st.markdown('''
-- Through a daily Co-Op placement, was mentored by MLT's Data and Analytics team
-- Developed technical, analytical, and project management skills by coordinating an innovative data research project into sports
-- Reviewed projects completed for commercial clients
+    - Through a daily Co-Op placement, was mentored by MLT's Data and Analytics team
+    - Developed technical, analytical, and project management skills by coordinating an innovative data research project into sports
+    - Reviewed projects completed for commercial clients
 ''')
 st.markdown("")
 
@@ -194,9 +189,9 @@ with col1: st.image("STFX_Curling.jpg")
 with col2: st.markdown('''**President**  \nStFX Curling Club  \nAntigonish, NS''')
 with col3: st.markdown('<div style="text-align: right;">April 2023 - Present', unsafe_allow_html=True)
 st.markdown('''
-- Successfully re-established StFX’s curling program, after it had not existed for 5 years
-- Collaborated with an Executive team to delegate and manage various projects and situations
-- Created a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
+    - Successfully re-established StFX’s curling program, after it had not existed for 5 years
+    - Collaborated with an Executive team to delegate and manage various projects and situations
+    - Created a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
 ''')
 st.markdown("")
 
@@ -206,8 +201,8 @@ with col1: st.image("STFX_Curling.jpg")
 with col2: st.markdown('''**President**  \nStFX Curling Society  \nAntigonish, NS''')
 with col3: st.markdown('<div style="text-align: right;">April 2023 - Present', unsafe_allow_html=True)
 st.markdown('''
-- Promotes curling among the StFX Community by creating opportunities to try the sport
-- Manages the student-managed society registered under the StFX Students Union
+    - Promotes curling among the StFX Community by creating opportunities to try the sport
+    - Manages the student-managed society registered under the StFX Students Union
 ''')
 st.markdown("")
 
@@ -218,16 +213,14 @@ with col1: st.image("STFX_Curling.jpg")
 with col2: st.markdown('''**Treasurer**  \nStFX Curling Society  \nAntigonish, NS''')
 with col3: st.markdown('<div style="text-align: right;">September 2021 - April 2023', unsafe_allow_html=True)
 st.markdown('''
-- Coordinated cash collections and disbursements for the student- managed curling society
-- Managed the society’s annual budgetary review process
+    - Coordinated cash collections and disbursements for the student- managed curling society
+    - Managed the society’s annual budgetary review process
 ''')
 st.markdown("")
 
 
 #####################
-st.markdown('''
-## Skills
-''')
+st.markdown('''## Skills''')
 col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Business Data Analytics**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`')
 with col2: st.markdown('**Cloud Computing**  \n`- Amazon Web Services (AWS)`  \n`- Microsoft Office 365`')
@@ -557,11 +550,13 @@ with st.expander("View Professional Development Courses and Conferences"):
 
 
 #####################
-st.markdown('''
-## Additional Resources / Information
-''')
-st.write("[Resume](https://streamlit-portfolio-logan.s3.ca-central-1.amazonaws.com/Resume+-+Logan+Pugsley.pdf)")
+st.markdown('''## Additional Resources''')
+st.write("[Resume](https://www.logan.pugsley.ca/resume)")
+st.write("[Podcast Interview](https://www.curldata.ca/podcast)")
 st.write("[CurlData](https://www.curldata.ca)")
-st.write("[Guest Appearance on Podcast](https://www.curldata.ca/podcast)")
 st.write("[GitHub Profile](https://github.com/consoleLog7)")
-st.write("[View my Code for This Website](https://github.com/consoleLog7/LP-Portfolio)")
+
+st.markdown('''## About this Portfolio''')
+st.write("[About](https://loganpugsley-s3-streamlit-portfolio.s3.ca-central-1.amazonaws.com/About.pdf)")
+st.write("[Infrastructure Diagram](https://loganpugsley-s3-streamlit-portfolio.s3.ca-central-1.amazonaws.com/Streamlit-Portfolio-Diagram.pdf)")
+st.write("[Source Code](https://github.com/consoleLog7/LP-Portfolio)")
