@@ -35,8 +35,8 @@ with col1:
     ###### *Business Technology Professional / Student*
     ''')
     st.markdown(":email: logan@pugsley.ca")
-    st.markdown(":link: https://ca.linkedin.com/in/loganpugsley")
-    st.markdown(":phone: (506) 863-4378")
+    st.markdown(":phone: +1 (506) 863-4378")
+    st.markdown(":link: www.linkedin.com/in/loganpugsley")
 with col2:
     st.image("Profile_Image.jpeg")
 
@@ -45,11 +45,9 @@ with col2:
 st.markdown("")
 st.markdown('''## About''')
 st.write('''
-A highly motivated business technology professional that specializes in developing and implementing innovative solutions helping businesses make data-driven decisions, automate processes, and reach their strategic objectives. At just twenty-one years old, brings both tremendous business expertise and technical skills, and is focused on building an exciting and meaningful career while earning an education. Has a track-record of driving innovation and improving business outcomes with specific experience in financial, telecommunications, and sport industries.
-         
-Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various technology initiatives throughout the business, driving innovation and data-driven decision-making by integrating systems, improving processes, streamlining IT service management processes, leveraging cloud technology, and enhancing information security initiatives. Proud to be a part of the team at Canada’s Most Respected Life Insurance Company!
-         
-During the school year, currently a third-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. In addition to being a full-time student, is a student-athlete on StFX’s Men’s Curling team, developing and training to represent the university for competition against other universities.
+A highly motivated business technology professional that specializes in developing and implementing innovative solutions, helping organizations make data-driven decisions, adopt cloud technologies, automate processes, and reach strategic objectives. With a unique skillset, balancing both business expertise and technical skills, has a tremendous ability to solve complex problems, create exceptional solutions, and work as a team-player. Has a track-record of improving business outcomes, with specific industry experience in finance, telecommunications, and sports.
+
+Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various strategic initiatives throughout the business, driving innovation and data-driven decision-making by building cloud solutions, integrating systems, improving processes, and enhancing information security initiatives. During the school year, a fourth-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. Between a strong pursuit of academic excellence, demonstrated work experience, and commitment to professional development as a Certified Cloud Practitioner, is well-prepared to drive impactful solutions for organizations.
 ''')
 
 
@@ -64,13 +62,13 @@ with col3:
     st.markdown('<div style="text-align: right;">September 2021 - Present', unsafe_allow_html=True)
 st.markdown('**Advanced Major:** Enterprise Systems  \n**Subsidiaries:** Computer Science, Public Policy and Governance')
 st.markdown('''
-    - 3rd year student
+    - 4th year student
     - Order of Merit Scholar at the Gerald Schwartz School of Business
-    - Member of the Dean’s List
+    - Member of the Dean’s List (2022, 2023, 2024)
+    - Service Learning Program Completion, 2023-2024
     - Full-time student athlete as skip of the men’s curling team
     - XREC Student Leadership Award, 2023-2024
     - Most Valuable Player StFX Men’s Curling, 2023-2024
-    - Service Learning Program Completion, 2023-2024
 ''')
 with st.expander("View Courses"):
     col1, col2, col3 = st.columns([3, 3, 3])
@@ -123,22 +121,29 @@ st.markdown('''## Work Experience''')
 # BCL Internship
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("BCL.png")
-with col2: st.markdown('''**Information Management and Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, NB''')
+with col2: st.markdown('''**Information Management & Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, NB & Remote''')
 with col3: st.markdown('<div style="text-align: right;">May 2023 - Present', unsafe_allow_html=True)
 st.markdown('''
+    - Collaborated with the DevOps Engineering Lead to transform Blue Cross Life’s cybersecurity program, replacing legacy vendor processes by implementing cloud-native solutions powered by machine learning
+    - Developed a business intelligence and analytical reporting system for the cybersecurity program, integrating data from cloud-native security solutions into a customized dashboard
+    - Established a business process automation solution to streamline corporate accounts payable processes, automating the flow from invoice receipt, approval, and request for payment
+    - Created a collection of SharePoint Sites and Power Automate processes to transform a process of auditing insurance claims for the Claims Management team and product distributors nationwide
+    - Developed a systems integration API solution in partnership with one of Blue Cross Life’s insurance distributors, enabling a seamless flow of data between two project management systems
+    - Led a project to develop a cloud-based configuration management database (CMDB) to record data about technology systems, vendors, and a software bill of materials within the organization
+    - Supports technical work on a multi-year data warehouse project to integrate data from six insurance distributors into a single database for data-driven decision-making
 ''')
 st.markdown("")
 
 # CurlData
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("CurlData.png")
-with col2: st.markdown('**Founder / Data Scientist**  \nCurlData  \nMoncton, NB')
+with col2: st.markdown('**Founder**  \nCurlData  \nMoncton, NB')
 with col3: st.markdown('<div style="text-align: right;">July 2021 - Present', unsafe_allow_html=True)
 st.markdown('''
     - Developed the world's first platform dedicated to data analytics in curling
-    - Consults with curling teams to improve performance using data
+    - Consults with curling teams to improve curling performance using data
     - Researches curling topics through blog posts and a proprietary curling analytics dashboard
-    - Maintains an extensive database of relevant curling data spanning 25 years
+    - Maintains an extensive database of relevant curling data spanning 30 years
 ''')
 st.markdown("")
 
@@ -149,9 +154,8 @@ with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemot
 with col3: st.markdown('<div style="text-align: right;">September 2022 - April 2023', unsafe_allow_html=True)
 st.markdown('''
     - While studying as a full-time student, transitioned to a part-time Data Analyst role
-    - Improved data ETL processes for telecommunications field surveying and GPS data collection
+    - Improved data ETL processes and data quality for telecommunications field surveying and GPS data collection, reducing human error and to deliver better results for clients
     - Coordinated and implemented telecommunications fiber planning process automation projects
-    - Improved data quality using analytics to reduce human error and deliver better results to clients
 ''')
 st.markdown("")
 
@@ -161,9 +165,8 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('''**Data Analyst Intern**  \nMissing Link Technologies  \nMoncton, NB''')
 with col3: st.markdown('<div style="text-align: right;">May 2022 - August 2022</div>', unsafe_allow_html=True)
 st.markdown('''
-    - Established an innovative research program for process automation in telecom planning
+    - Established an innovative research program for implementing process automation solutions for Missing Link Technologies’ telecommunications planning division
     - Streamlined fiber planning processes, reducing manual effort in key business areas, saving enormous amounts of resource hours each year
-    - Coordinated and implemented data analytics projects by developing Python automation apps for MLT's telecommunications division
 ''')
 st.markdown("")
 
@@ -173,9 +176,7 @@ with col1: st.image("MLT.png")
 with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, NB')
 with col3: st.markdown('<div style="text-align: right;">January 2021 - June 2021', unsafe_allow_html=True)
 st.markdown('''
-    - Through a daily Co-Op placement, was mentored by MLT's Data and Analytics team
-    - Developed technical, analytical, and project management skills by coordinating an innovative data research project into sports
-    - Reviewed projects completed for commercial clients
+    - Developed technical, analytical, and project management skills by coordinating an innovative data science research project into sport, mentored by Missing Link Technologies’ Data & Analytics team
 ''')
 st.markdown("")
 
@@ -190,22 +191,10 @@ with col2: st.markdown('''**President**  \nStFX Curling Club  \nAntigonish, NS''
 with col3: st.markdown('<div style="text-align: right;">April 2023 - Present', unsafe_allow_html=True)
 st.markdown('''
     - Successfully re-established StFX’s curling program, after it had not existed for 5 years
+    - Designed a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
     - Collaborated with an Executive team to delegate and manage various projects and situations
-    - Created a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
 ''')
 st.markdown("")
-
-# Curling Society President
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("STFX_Curling.jpg")
-with col2: st.markdown('''**President**  \nStFX Curling Society  \nAntigonish, NS''')
-with col3: st.markdown('<div style="text-align: right;">April 2023 - Present', unsafe_allow_html=True)
-st.markdown('''
-    - Promotes curling among the StFX Community by creating opportunities to try the sport
-    - Manages the student-managed society registered under the StFX Students Union
-''')
-st.markdown("")
-
 
 # Curling Society Treasurer
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
@@ -222,17 +211,17 @@ st.markdown("")
 #####################
 st.markdown('''## Skills''')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Business Data Analytics**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`')
+with col1: st.markdown('**Data Analytics & Business Intelligence**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`')
 with col2: st.markdown('**Cloud Computing**  \n`- Amazon Web Services (AWS)`  \n`- Microsoft Office 365`')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Programming**  \n`- Python`  \n`- Javascript`  \n`- C++`  \n`- Java`  \n`- Visual Basic`  \n`- HTML`  \n`- ABAP`')
-with col2: st.markdown('**Automation & Systems Integration**  \n`- Custom API Development`  \n`- REST API`  \n`- SAP Configuration`')
+with col1: st. markdown('**Business Process Improvement**  \n`- Process Mapping and Analysis`  \n`- Automation`  \n`- Systems Integration`')
+with col2: st.markdown('**Programming**  \n`- Python`  \n`- Javascript`  \n`- C++`  \n`- Java`  \n`- Visual Basic`  \n`- HTML`  \n`- ABAP`')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Cybersecurity**  \n`- Day-to-Day Operations`  \n`- Incident Response`  \n`- Vulnerability Management`  \n`- Risk Mitigation`  \n`- Policy Compliance`')
-with col2: st.markdown('**Databases**  \n`- SQL`  \n`- Oracle`  \n`- MySQL`  \n`- SQLite`  \n`- SAP S/4HANA`')
+with col1: st.markdown('**Cybersecurity**  \n`- Cloud Security`  \n`- Day-to-Day Operations`  \n`- Incident Response`  \n`- Risk Mitigation`  \n`- Policy Compliance`')
+with col2: st.markdown('**Databases**  \n`- SQL`  \n`- Oracle`  \n`- SAP S/4HANA`  \n`- SQLite`')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**IT Service Management**  \n`- IT Vendor Management`  \n`- Configuration Management Database (CMDB) Development`  \n`- Enterprise Support`')
-with col2: st.markdown('**Project Management**  \n`- Agile Project Management`  \n`- YouTrack`  \n`- Jira`')
+with col1: st.markdown('**Project Management**  \n`- Project Planning`  \n`- Agile PM`  \n`- Stakeholder Engagement`')
+with col2: st.markdown('**IT Service Management**  \n`- Configuration Management Database (CMDB) Development`  \n`- Change Management`')
 col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
 
@@ -554,9 +543,9 @@ st.markdown('''## Additional Resources''')
 st.write("[Resume](https://www.logan.pugsley.ca/resume)")
 st.write("[Podcast Interview](https://www.curldata.ca/podcast)")
 st.write("[CurlData](https://www.curldata.ca)")
-st.write("[GitHub Profile](https://github.com/consoleLog7)")
+st.write("[GitHub Profile](https://www.logan.pugsley.ca/git)")
 
 st.markdown('''## About this Portfolio''')
-st.write("[About](https://loganpugsley-s3-streamlit-portfolio.s3.ca-central-1.amazonaws.com/About.pdf)")
-st.write("[Infrastructure Diagram](https://loganpugsley-s3-streamlit-portfolio.s3.ca-central-1.amazonaws.com/Streamlit-Portfolio-Diagram.pdf)")
+st.write("[About](https://www.logan.pugsley.ca/about)")
+st.write("[Infrastructure Diagram](https://www.logan.pugsley.ca/diagram)")
 st.write("[Source Code](https://github.com/consoleLog7/LP-Portfolio)")
