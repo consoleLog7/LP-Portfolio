@@ -228,7 +228,12 @@ with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organize
 
 ## Certifications and Professional Development
 st.markdown('''## Certifications and Professional Development''')
-# AWS Certified Cloud Practitioner Exam Prep Course
+col1, col2, col3 = st.columns([1, 4, 2.2])
+with col1: st.image("IBM_Design_Thinking.png")
+with col2: st.markdown('**Enterprise Design Thinking Practitioner**  \nIBM')
+with col3: st.markdown('Issued: September 2024', unsafe_allow_html=True)
+st.markdown("") 
+
 col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("AWS_CCP.png")
 with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Services (AWS)')
