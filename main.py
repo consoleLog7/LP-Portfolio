@@ -2,7 +2,7 @@
 import streamlit as st
 
 
-## Streamlit Page Setup
+## Page Setup
 st.set_page_config(page_title="Logan Pugsley", page_icon="Profile_Image.jpeg")
 st.write('<style>div.block-container{padding-top:3rem;}</style>', unsafe_allow_html=True)
 st.markdown('''<style>
@@ -18,7 +18,7 @@ st.markdown('''<style>
     </style>''', unsafe_allow_html=True)
 
 
-## Streamlit Navigation Bar
+## Navigation Bar
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown('''
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #326fa8;">
@@ -27,27 +27,27 @@ st.markdown('''
     ''', unsafe_allow_html=True)
 
 
-### Main Header
+## Main Header
 col1, col2 = st.columns([5, 2])
 with col1:
     st.write('''
     # Logan Pugsley
     ###### *Business Technology Professional / Student*
     ''')
-    st.markdown(":email: logan@pugsley.ca")
+    st.markdown(":email: loganpugsley7@gmail.com")
     st.markdown(":phone: +1 (506) 863-4378")
     st.markdown(":link: www.linkedin.com/in/loganpugsley")
 with col2:
     st.image("Profile_Image.jpeg")
 
 
-### Summary
+## Summary
 st.markdown("")
 st.markdown('''## About''')
 st.write('''
-A highly motivated business technology professional that specializes in developing and implementing innovative solutions, helping organizations make data-driven decisions, adopt cloud technologies, automate processes, and reach strategic objectives. With a unique skillset, balancing both business expertise and technical skills, has a tremendous ability to solve complex problems, create exceptional solutions, and work as a team-player. Has a track-record of improving business outcomes, with specific industry experience in finance, telecommunications, and sports.
+A highly motivated business technology professional that specializes in developing and implementing innovative solutions to help organizations adopt technology, mitigate risk, make data-driven decisions, automate processes, and reach strategic objectives. With a unique skillset, balancing both business expertise and technical skills, has a tremendous ability to solve complex problems and work as a team-player. Has a track-record of improving business outcomes, with specific industry experience in finance, telecommunications, and sports.
 
-Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various strategic initiatives throughout the business, driving innovation and data-driven decision-making by building cloud solutions, integrating systems, improving processes, and enhancing information security initiatives. During the school year, a fourth-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems. Between a strong pursuit of academic excellence, demonstrated work experience, and commitment to professional development as a Certified Cloud Practitioner, is well-prepared to drive impactful solutions for organizations.
+Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various strategic initiatives throughout the business, driving innovation and data-driven decision-making by building cloud solutions, integrating systems, improving processes, and enhancing information security initiatives. During the school year, a fourth-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems.
 ''')
 
 
@@ -71,53 +71,63 @@ st.markdown('''
     - Most Valuable Player StFX Men’s Curling, 2023-2024
 ''')
 with st.expander("View Courses"):
+    # Completed Courses
+    st.markdown("### Completed:")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**BSAD101: Introduction to Business**")
-    with col2: st.markdown("**BSAD102: Business Decision-Making**")
-    with col3: st.markdown("**ECON101: Introductory Microeconomics**")
+    with col1: st.markdown("BSAD101: Introduction to Business")
+    with col2: st.markdown("BSAD102: Business Decision-Making")
+    with col3: st.markdown("ECON101: Introductory Microeconomics")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**ECON102: Introductory Macroecnomics**")
-    with col2: st.markdown("**MATH105: Business Mathematics**")
-    with col3: st.markdown("**STAT101: Introductory Statistics**")
+    with col1: st.markdown("ECON102: Introductory Macroecnomics")
+    with col2: st.markdown("MATH105: Business Mathematics")
+    with col3: st.markdown("STAT101: Introductory Statistics")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**CSCI161: Intro to Programming**")
-    with col2: st.markdown("**CSCI162: Programming & Data Structures**")
-    with col3: st.markdown("**PGOV101: Public Policy & Governance**")
+    with col1: st.markdown("CSCI161: Intro to Programming")
+    with col2: st.markdown("CSCI162: Programming & Data Structures")
+    with col3: st.markdown("PGOV101: Public Policy & Governance")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**PHYS171: Intro to Astronomy I**")
-    with col2: st.markdown("**BSAD221: Intro Financial Accounting**")
-    with col3: st.markdown("**BSAD223: Intro Managerial Accounting**")
+    with col1: st.markdown("PHYS171: Intro to Astronomy I")
+    with col2: st.markdown("BSAD221: Intro Financial Accounting")
+    with col3: st.markdown("BSAD223: Intro Managerial Accounting")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**BSAD231: Foundations of Marketing**")
-    with col2: st.markdown("**BSAD241: Financial Management I**")
-    with col3: st.markdown("**BSAD261: Organizational Behaviour**")
+    with col1: st.markdown("BSAD231: Foundations of Marketing")
+    with col2: st.markdown("BSAD241: Financial Management I")
+    with col3: st.markdown("BSAD261: Organizational Behaviour")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**BSAD281: Foundations of Information Technology**")
-    with col2: st.markdown("**CSCI223: Introduction to Data Science**")
-    with col3: st.markdown("**MATH382: Sports Analytics**")
+    with col1: st.markdown("BSAD281: Foundations of Information Technology")
+    with col2: st.markdown("CSCI223: Introduction to Data Science")
+    with col3: st.markdown("MATH382: Sports Analytics")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**PGOV201: Public Policy**")
-    with col2: st.markdown("**PGOV202: Governance**")
-    with col3: st.markdown("**BSAD321: Intermediate Managerial Accounting I**")
+    with col1: st.markdown("PGOV201: Public Policy")
+    with col2: st.markdown("PGOV202: Governance")
+    with col3: st.markdown("BSAD321: Intermediate Managerial Accounting I")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**BSAD382: Introduction to Enterprise Systems and SAP**")
-    with col2: st.markdown("**BSAD385: Business Programming and ABAP**")
-    with col3: st.markdown("**BSAD386: Project Management and Practice**")
+    with col1: st.markdown("BSAD382: Introduction to Enterprise Systems and SAP")
+    with col2: st.markdown("BSAD385: Business Programming and ABAP")
+    with col3: st.markdown("BSAD386: Project Management and Practice")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**PGOV399: Local Government**")
-    with col2: st.markdown("**BSAD322: Intermediate Managerial Accounting II**")
-    with col3: st.markdown("**BSAD357: International Business**")
+    with col1: st.markdown("PGOV399: Local Government")
+    with col2: st.markdown("BSAD322: Intermediate Managerial Accounting II")
+    with col3: st.markdown("BSAD357: International Business")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("**BSAD384: Data Management and Analytics**")
-    with col2: st.markdown("**BSAD389: Technology and Innovation Management**")
-    with col3: st.markdown("**IDS305: Immersion Service Learning**")
+    with col1: st.markdown("BSAD384: Data Management and Analytics")
+    with col2: st.markdown("BSAD389: Technology and Innovation Management")
+    with col3: st.markdown("IDS305: Immersion Service Learning")
+
+    # Courses in Progress
+    st.markdown("### In Progress:")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("BSAD450: Personal Taxation")
+    with col2: st.markdown("BSAD483: Systems Analysis and Design")
+    with col3: st.markdown("BSAD487: Advances in Technology and Innovation")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("ECON335: Money & Financial Markets I")
+    with col2: st.markdown("CSCI225: Coding in Health Analytics")
     st.markdown("")
 
 
-
 ## Work Experience
-st.markdown('''## Work Experience''')
-            
+st.markdown('''## Work Experience''')            
 # BCL Internship
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("BCL.png")
@@ -182,8 +192,7 @@ st.markdown("")
 
 
 ## Volunteer Experience
-st.markdown('''## Volunteer Experience''')
-            
+st.markdown('''## Volunteer Experience''')       
 # StFX Curling President
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("STFX_Curling.jpg")
@@ -208,7 +217,7 @@ st.markdown('''
 st.markdown("")
 
 
-#####################
+## Skills
 st.markdown('''## Skills''')
 col1, col2 = st.columns([4, 4])
 with col1: st.markdown('**Data Analytics & Business Intelligence**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`')
@@ -228,18 +237,35 @@ with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organize
 
 ## Certifications and Professional Development
 st.markdown('''## Certifications and Professional Development''')
+# IBM Enterprise Design Thinking Practitioner
 col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("IBM_Design_Thinking.png")
 with col2: st.markdown('**Enterprise Design Thinking Practitioner**  \nIBM')
 with col3: st.markdown('Issued: September 2024', unsafe_allow_html=True)
 st.markdown("") 
 
+# AWS Certified Cloud Practitioner
 col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("AWS_CCP.png")
 with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Services (AWS)')
 with col3: st.markdown('Issued: April 2024', unsafe_allow_html=True)
-st.markdown("") 
-with st.expander("View Professional Development Courses and Conferences"):
+st.markdown("")
+# Professional Development Courses
+with st.expander("View Professional Development Courses Completed"):
+    # IBM Cybersecurity Fundamentals
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("IBM_Cybersecurity_Fundamentals.png")
+    with col2: st.markdown('**IBM Cybersecurity Fundamentals**')
+    with col3: st.markdown('<div style="text-align: right;">September 2024', unsafe_allow_html=True)
+    st.markdown("") 
+
+    # IBM Agile Explorer
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("IBM_Agile_Explorer.png")
+    with col2: st.markdown('**IBM Agile Explorer**')
+    with col3: st.markdown('<div style="text-align: right;">September 2024', unsafe_allow_html=True)
+    st.markdown("") 
+
     # MS-900T01--A: Microsoft 365 Fundamentals
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("MS_Learn.png")
@@ -450,13 +476,6 @@ with st.expander("View Professional Development Courses and Conferences"):
     with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
     st.markdown("")
 
-    # AWSome Day
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWSOMEDAY.jpeg")
-    with col2: st.markdown('**AWSome Day Conference**')
-    with col3: st.markdown('<div style="text-align: right;">February 2024', unsafe_allow_html=True)
-    st.markdown("")
-
     # Google Generative AI Fundamentals
     col1, col2, col3 = st.columns([1, 4, 2.2])
     with col1: st.image("GoogleGenAIFundamentals.png")
@@ -542,14 +561,24 @@ with st.expander("View Professional Development Courses and Conferences"):
     with col3: st.markdown('<div style="text-align: right;">January 2021', unsafe_allow_html=True)
     st.markdown("")
 
+with st.expander("View Conferences and Professional Engagements"):
+    # AWSome Day
+    col1, col2, col3 = st.columns([1, 4, 2.2])
+    with col1: st.image("AWSOMEDAY.jpeg")
+    with col2: st.markdown('**AWSome Day Conference**')
+    with col3: st.markdown('<div style="text-align: right;">February 2024', unsafe_allow_html=True)
+    st.markdown("")
 
-#####################
+
+## Additional Resources
 st.markdown('''## Additional Resources''')
 st.write("[Resume](https://www.logan.pugsley.ca/resume)")
 st.write("[Podcast Interview](https://www.curldata.ca/podcast)")
 st.write("[CurlData](https://www.curldata.ca)")
 st.write("[GitHub Profile](https://www.logan.pugsley.ca/git)")
 
+
+## About this Portfolio
 st.markdown('''## About this Portfolio''')
 st.write("[About](https://www.logan.pugsley.ca/about)")
 st.write("[Infrastructure Diagram](https://www.logan.pugsley.ca/diagram)")
