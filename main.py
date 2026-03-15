@@ -3,7 +3,7 @@ import streamlit as st
 
 
 ## Page Setup
-st.set_page_config(page_title="Logan Pugsley", page_icon="Profile_Image.jpeg")
+st.set_page_config(page_title="Logan Pugsley", page_icon="Profile_Image.jpg")
 st.write('<style>div.block-container{padding-top:3rem;}</style>', unsafe_allow_html=True)
 st.markdown('''<style>
     #MainMenu {
