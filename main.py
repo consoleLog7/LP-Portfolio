@@ -38,7 +38,7 @@ with col1:
     st.markdown(":phone: +1 (506) 863-4378")
     st.markdown(":link: www.linkedin.com/in/loganpugsley")
 with col2:
-    st.image("Profile_Image.jpeg")
+    st.image("Profile_Image.jpg")
 
 
 ## Summary
