@@ -69,7 +69,6 @@ st.markdown('''
 ''')
 with st.expander("View Courses"):
     # Completed Courses
-    st.markdown("### Completed:")
     col1, col2, col3 = st.columns([3, 3, 3])
     with col1: st.markdown("BSAD101: Introduction to Business")
     with col2: st.markdown("BSAD102: Business Decision-Making")
@@ -121,16 +120,16 @@ with st.expander("View Courses"):
     col1, col2, col3 = st.columns([3, 3, 3])
     with col1: st.markdown("BSAD482: Decision Intelligence & Analytics")
     with col2: st.markdown("BSAD492: Advanced Majors Consulting Project")
-    with col3: st.markdown("BSAD495: Artificial Intelligence for Technology Management and Marketing")
+    with col3: st.markdown("PGOV302: Public Management")
     col1, col2, col3 = st.columns([3, 3, 3])
-    with col1: st.markdown("PGOV302: Public Management")
+    with col1: st.markdown("BSAD495: Artificial Intelligence for Technology Management and Marketing")
 
 
 ## Work Experience
 st.markdown('''## Work Experience''')            
 # EY
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("BCL.png")
+with col1: st.image("EY.png")
 with col2: st.markdown('''**Consultant, Digital Risk Consulting**  \nErnst & Young LLP (EY)  \nHalifax, Nova Scotia''')
 with col3: st.markdown('<div style="text-align: right;">September 2025 - Present', unsafe_allow_html=True)
 st.markdown('''
@@ -159,7 +158,7 @@ st.markdown("")
 # MLT
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("MLT.png")
-with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemote''')
+with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nMoncton, New Brunswick and Remote''')
 with col3: st.markdown('<div style="text-align: right;">May 2022 - May 2023', unsafe_allow_html=True)
 st.markdown('''
     - Developed Python automation tools to streamline telecommunications fiber planning workflows, reducing key operational hours spent on repetitive, manual engineering processes.
@@ -179,32 +178,6 @@ st.markdown('''
     - Developed foundational skills in data analysis, project management, business process improvement, and change management while collaborating with professional data scientists.
     - Evaluated prior client analytics projects to understand real-world data engineering and analytical solution delivery.
     ''')
-st.markdown("")
-
-
-## Volunteer Experience
-st.markdown('''## Volunteer Experience''')       
-# StFX Curling President
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("STFX_Curling.jpg")
-with col2: st.markdown('''**President**  \nStFX Curling Club  \nAntigonish, NS''')
-with col3: st.markdown('<div style="text-align: right;">April 2023 - May 2025', unsafe_allow_html=True)
-st.markdown('''
-    - Successfully re-established StFX’s curling program, after it had not existed for 5 years
-    - Designed a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
-    - Collaborated with an Executive team to delegate and manage various projects and situations
-''')
-st.markdown("")
-
-# Curling Society Treasurer
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("STFX_Curling.jpg")
-with col2: st.markdown('''**Treasurer**  \nStFX Curling Society  \nAntigonish, NS''')
-with col3: st.markdown('<div style="text-align: right;">September 2021 - April 2023', unsafe_allow_html=True)
-st.markdown('''
-    - Coordinated cash collections and disbursements for the student- managed curling society
-    - Managed the society’s annual budgetary review process
-''')
 st.markdown("")
 
 
@@ -235,6 +208,32 @@ col1, col2, col3 = st.columns([1, 4, 2.2])
 with col1: st.image("AWS_CCP.png")
 with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Services (AWS)')
 with col3: st.markdown('Issued: April 2024', unsafe_allow_html=True)
+st.markdown("")
+
+
+## Volunteer Experience
+st.markdown('''## Volunteer Experience''')       
+# StFX Curling President
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("STFX_Curling.jpg")
+with col2: st.markdown('''**President**  \nStFX Curling Club  \nAntigonish, NS''')
+with col3: st.markdown('<div style="text-align: right;">April 2023 - May 2025', unsafe_allow_html=True)
+st.markdown('''
+    - Successfully re-established StFX’s curling program, after it had not existed for 5 years
+    - Designed a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
+    - Collaborated with an Executive team to delegate and manage various projects and situations
+''')
+st.markdown("")
+
+# Curling Society Treasurer
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("STFX_Curling.jpg")
+with col2: st.markdown('''**Treasurer**  \nStFX Curling Society  \nAntigonish, NS''')
+with col3: st.markdown('<div style="text-align: right;">September 2021 - April 2023', unsafe_allow_html=True)
+st.markdown('''
+    - Coordinated cash collections and disbursements for the student- managed curling society
+    - Managed the society’s annual budgetary review process
+''')
 st.markdown("")
 
 
