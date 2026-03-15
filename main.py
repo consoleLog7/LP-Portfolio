@@ -32,7 +32,7 @@ col1, col2 = st.columns([5, 2])
 with col1:
     st.write('''
     # Logan Pugsley
-    ###### *Business Technology Professional / Student*
+    ###### *Business Analytics and Technology Professional*
     ''')
     st.markdown(":email: loganpugsley7@gmail.com")
     st.markdown(":phone: +1 (506) 863-4378")
@@ -44,11 +44,9 @@ with col2:
 ## Summary
 st.markdown("")
 st.markdown('''## About''')
-st.write('''
-A highly motivated business technology professional that specializes in developing and implementing innovative solutions to help organizations adopt technology, mitigate risk, make data-driven decisions, automate processes, and reach strategic objectives. With a unique skillset, balancing both business expertise and technical skills, has a tremendous ability to solve complex problems and work as a team-player. Has a track-record of improving business outcomes, with specific industry experience in finance, telecommunications, and sports.
-
-Currently working at Blue Cross Life Insurance Company of Canada as an Information Management & Technology Student on various strategic initiatives throughout the business, driving innovation and data-driven decision-making by building cloud solutions, integrating systems, improving processes, and enhancing information security initiatives. During the school year, a fourth-year student in the Gerald Schwartz School of Business at St. Francis Xavier University, working towards a Bachelor of Business Administration (BBA), Advanced Major in Enterprise Systems.
-''')
+st.write('''Logan Pugsley is a Digital Risk Staff Consultant in the Risk Consulting practice at Ernst & Young LLP. He joined the firm in September 2025 after obtaining his BBA Advanced Major in Enterprise Systems at Saint Francis Xavier University. 
+Logan has previously worked with organizations across several industries, including provincial and municipal governments, crown corporations, educational institutions, as well as various public and private organizations across financial services, insurance, telecommunications, automotive, retail, and mining. His experience has focused on data analytics, business process optimization, digital transformation, cybersecurity, internal audit, risk assessment, technology risk and compliance, and disaster recovery. 
+Logan’s background allows him to balance both business expertise and technical abilities to advise organizations across various industries to identify opportunities for transformation.''')
 
 
 ## Education
@@ -57,16 +55,15 @@ col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1:
     st.image("STFX.png")
 with col2:
-    st.markdown('**Bachelor of Business Administration (BBA)**  \nSt. Francis Xavier University  \nAntigonish, NS')
+    st.markdown('**Bachelor of Business Administration (BBA), Advanced Major with Distinction**  \nSt. Francis Xavier University  \nAntigonish, NS')
 with col3:
-    st.markdown('<div style="text-align: right;">September 2021 - Present', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right;">September 2021 - May 2025', unsafe_allow_html=True)
 st.markdown('**Advanced Major:** Enterprise Systems  \n**Subsidiaries:** Computer Science, Public Policy and Governance')
 st.markdown('''
-    - 4th year student
     - Order of Merit Scholar at the Gerald Schwartz School of Business
-    - Member of the Dean’s List (2022, 2023, 2024)
+    - Member of the Dean’s List (2022, 2023, 2024, 2025)
     - Service Learning Program Completion, 2023-2024
-    - Full-time student athlete as skip of the men’s curling team
+    - Full-time student athlete as Skip of the X-Men Curling team
     - XREC Student Leadership Award, 2023-2024
     - Most Valuable Player StFX Men’s Curling, 2023-2024
 ''')
@@ -113,9 +110,6 @@ with st.expander("View Courses"):
     with col1: st.markdown("BSAD384: Data Management and Analytics")
     with col2: st.markdown("BSAD389: Technology and Innovation Management")
     with col3: st.markdown("IDS305: Immersion Service Learning")
-
-    # Courses in Progress
-    st.markdown("### In Progress:")
     col1, col2, col3 = st.columns([3, 3, 3])
     with col1: st.markdown("BSAD450: Personal Taxation")
     with col2: st.markdown("BSAD483: Systems Analysis and Design")
@@ -123,71 +117,68 @@ with st.expander("View Courses"):
     col1, col2, col3 = st.columns([3, 3, 3])
     with col1: st.markdown("ECON335: Money & Financial Markets I")
     with col2: st.markdown("CSCI225: Coding in Health Analytics")
-    st.markdown("")
+    with col3: st.markdown("BSAD471: Strategic Management")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("BSAD482: Decision Intelligence & Analytics")
+    with col2: st.markdown("BSAD492: Advanced Majors Consulting Project")
+    with col3: st.markdown("BSAD495: Artificial Intelligence for Technology Management and Marketing")
+    col1, col2, col3 = st.columns([3, 3, 3])
+    with col1: st.markdown("PGOV302: Public Management")
 
 
 ## Work Experience
 st.markdown('''## Work Experience''')            
+# EY
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("BCL.png")
+with col2: st.markdown('''**Consultant, Digital Risk Consulting**  \nErnst & Young LLP (EY)  \nHalifax, Nova Scotia''')
+with col3: st.markdown('<div style="text-align: right;">September 2025 - Present', unsafe_allow_html=True)
+st.markdown('''
+    - Provides technology and risk consulting services across provincial and municipal governments, crown corporations, educational institutions, financial services companies, automotive manufacturers, and mining companies, including Fortune 500 and publicly traded firms.
+    - Performed data analytics and visualization on enterprise payroll datasets to identify overtime trends, policy compliance issues, and cost-reduction opportunities for a municipal government.
+    - Provides data-driven internal audit services to organizations across multiple sectors to review business processes, governance, and technology solutions, and identify opportunities for business process improvement and digital transformation to senior management.
+    - Conducted a fraud risk assessment and control design evaluation, identifying vulnerabilities and recommending mitigation strategies and technology solutions for a provincial government.
+    - Executed assessments over Internal Controls over Financial Reporting (ICFR) and Information Technology General Controls (ITGC) to validate data accuracy, system integrity, and information security across multiple public and private sector organizations.
+    ''')
+st.markdown("")
+
 # BCL Internship
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("BCL.png")
-with col2: st.markdown('''**Information Management & Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, NB & Remote''')
-with col3: st.markdown('<div style="text-align: right;">May 2023 - Present', unsafe_allow_html=True)
+with col2: st.markdown('''**Information Management & Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, New Brunswick & Remote''')
+with col3: st.markdown('<div style="text-align: right;">May 2023 - May 2025', unsafe_allow_html=True)
 st.markdown('''
-    - Collaborated with the DevOps Engineering Lead to transform Blue Cross Life’s cybersecurity program, replacing legacy vendor processes by implementing cloud-native solutions powered by machine learning
-    - Developed a business intelligence and analytical reporting system for the cybersecurity program, integrating data from cloud-native security solutions into a customized dashboard
-    - Established a business process automation solution to streamline corporate accounts payable processes, automating the flow from invoice receipt, approval, and request for payment
-    - Created a collection of SharePoint Sites and Power Automate processes to transform a process of auditing insurance claims for the Claims Management team and product distributors nationwide
-    - Developed a systems integration API solution in partnership with one of Blue Cross Life’s insurance distributors, enabling a seamless flow of data between two project management systems
-    - Led a project to develop a cloud-based configuration management database (CMDB) to record data about technology systems, vendors, and a software bill of materials within the organization
-    - Supports technical work on a multi-year data warehouse project to integrate data from six insurance distributors into a single database for data-driven decision-making
+    - Transformed the national insurance claims management and auditing process by automating enterprise workflows, leveraging Power Platform, and reduced manual data processing and review by the claims management team by 80%.
+    - Developed a custom business intelligence and analytics reporting system for the cybersecurity team, integrating data from cloud-native cybersecurity platforms into interactive dashboards for live cybersecurity operations monitoring and reporting.
+    - Contributed to a multi-year enterprise cloud data warehouse initiative integrating data from six insurance distributors to support data-driven business decisions.
+    - Implemented systems integrations and API solutions to automate data flows and improve extract, transform, and load processes across various technology systems.
+    - Transformed the company's cybersecurity program by auditing and replacing legacy processes with cloud cybersecurity solutions powered by artificial intelligence.
 ''')
 st.markdown("")
 
-# CurlData
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("CurlData.png")
-with col2: st.markdown('**Founder**  \nCurlData  \nMoncton, NB')
-with col3: st.markdown('<div style="text-align: right;">July 2021 - Present', unsafe_allow_html=True)
-st.markdown('''
-    - Developed the world's first platform dedicated to data analytics in curling
-    - Consults with curling teams to improve curling performance using data
-    - Researches curling topics through blog posts and a proprietary curling analytics dashboard
-    - Maintains an extensive database of relevant curling data spanning 30 years
-''')
-st.markdown("")
-
-# MLT Part-Time
+# MLT
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("MLT.png")
 with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nRemote''')
-with col3: st.markdown('<div style="text-align: right;">September 2022 - April 2023', unsafe_allow_html=True)
+with col3: st.markdown('<div style="text-align: right;">May 2022 - May 2023', unsafe_allow_html=True)
 st.markdown('''
-    - While studying as a full-time student, transitioned to a part-time Data Analyst role
-    - Improved data ETL processes and data quality for telecommunications field surveying and GPS data collection, reducing human error and to deliver better results for clients
-    - Coordinated and implemented telecommunications fiber planning process automation projects
-''')
-st.markdown("")
-
-# MLT Internship
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("MLT.png")
-with col2: st.markdown('''**Data Analyst Intern**  \nMissing Link Technologies  \nMoncton, NB''')
-with col3: st.markdown('<div style="text-align: right;">May 2022 - August 2022</div>', unsafe_allow_html=True)
-st.markdown('''
-    - Established an innovative research program for implementing process automation solutions for Missing Link Technologies’ telecommunications planning division
-    - Streamlined fiber planning processes, reducing manual effort in key business areas, saving enormous amounts of resource hours each year
-''')
+    - Developed Python automation tools to streamline telecommunications fiber planning workflows, reducing key operational hours spent on repetitive, manual engineering processes.
+    - Improved ETL pipelines and data validation processes for telecommunications field GPS data collection, significantly reducing human error and improving dataset reliability.
+    - Designed automation and analytics workflows to process and analyze large field-survey datasets used for telecommunications infrastructure planning, delivering enhanced accuracy for clients.
+    - In collaboration with data scientists, established a process automation research program to identify analytics and automation opportunities within telecommunications fiber planning.
+    ''')
 st.markdown("")
 
 # MLT Co-Op
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("MLT.png")
-with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, NB')
-with col3: st.markdown('<div style="text-align: right;">January 2021 - June 2021', unsafe_allow_html=True)
+with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, New Brunswick')
+with col3: st.markdown('<div style="text-align: right;">February 2021 - June 2021', unsafe_allow_html=True)
 st.markdown('''
-    - Developed technical, analytical, and project management skills by coordinating an innovative data science research project into sport, mentored by Missing Link Technologies’ Data & Analytics team
-''')
+    - Coordinated a data science research project analyzing sports performance datasets, applying statistical and analytical techniques under mentorship from the company's analytics team.
+    - Developed foundational skills in data analysis, project management, business process improvement, and change management while collaborating with professional data scientists.
+    - Evaluated prior client analytics projects to understand real-world data engineering and analytical solution delivery.
+    ''')
 st.markdown("")
 
 
@@ -197,7 +188,7 @@ st.markdown('''## Volunteer Experience''')
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
 with col1: st.image("STFX_Curling.jpg")
 with col2: st.markdown('''**President**  \nStFX Curling Club  \nAntigonish, NS''')
-with col3: st.markdown('<div style="text-align: right;">April 2023 - Present', unsafe_allow_html=True)
+with col3: st.markdown('<div style="text-align: right;">April 2023 - May 2025', unsafe_allow_html=True)
 st.markdown('''
     - Successfully re-established StFX’s curling program, after it had not existed for 5 years
     - Designed a program to select, develop, and compete for both men’s and women’s curling teams, ahead of annual competition at the Atlantic University Sport (AUS) Curling Championships
@@ -220,19 +211,14 @@ st.markdown("")
 ## Skills
 st.markdown('''## Skills''')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Data Analytics & Business Intelligence**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)`')
-with col2: st.markdown('**Cloud Computing**  \n`- Amazon Web Services (AWS)`  \n`- Microsoft Office 365`')
+with col1: st.markdown('**Data Analytics & Business Intelligence**  \n`- Data Engineering`  \n`- Data Visualization`  \n`- Extract, Transform, Load (ETL)` \n`- Tableau` \n`- Alteryx` \n`- Power BI`')
+with col2: st.markdown('**Programming & Databases**  \n`- Python`  \n`- SQL` \n`- JavaScript` \n`- Others: C++, Java, HTML, Visual Basic, ABAP`')
 col1, col2 = st.columns([4, 4])
-with col1: st. markdown('**Business Process Improvement**  \n`- Process Mapping and Analysis`  \n`- Automation`  \n`- Systems Integration`')
-with col2: st.markdown('**Programming**  \n`- Python`  \n`- Javascript`  \n`- C++`  \n`- Java`  \n`- Visual Basic`  \n`- HTML`  \n`- ABAP`')
+with col1: st. markdown('**Cloud Computing**  \n`- Amazon Web Services`  \n`- Microsoft Azure`  \n`- Microsoft Office 365` \n`- Power Platform`')
+with col2: st.markdown('**Process Improvmenet**  \n`- Process Automation`  \n`- Process Mapping`  \n`- Systems Integration`')
 col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Cybersecurity**  \n`- Cloud Security`  \n`- Day-to-Day Operations`  \n`- Incident Response`  \n`- Risk Mitigation`  \n`- Policy Compliance`')
-with col2: st.markdown('**Databases**  \n`- SQL`  \n`- Oracle`  \n`- SAP S/4HANA`  \n`- SQLite`')
-col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Project Management**  \n`- Project Planning`  \n`- Agile PM`  \n`- Stakeholder Engagement`')
-with col2: st.markdown('**IT Service Management**  \n`- Configuration Management Database (CMDB) Development`  \n`- Change Management`')
-col1, col2 = st.columns([4, 4])
-with col1: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Communicator`  \n`- Polite`  \n`- Lifelong Learner`  \n`- Team Player`')
+with col1: st.markdown('**Risk Management & Audit**  \n`- Internal Audit`  \n`- Process & Controls Evaluation`  \n`- Risk Assessment`')
+with col2: st.markdown('**Person Skills**  \n`- Critical Thinker`  \n`- Organized`  \n`- Strong Communicator`')
 
 
 ## Certifications and Professional Development
@@ -250,336 +236,11 @@ with col1: st.image("AWS_CCP.png")
 with col2: st.markdown('**AWS Certified Cloud Practitioner**  \nAmazon Web Services (AWS)')
 with col3: st.markdown('Issued: April 2024', unsafe_allow_html=True)
 st.markdown("")
-# Professional Development Courses
-with st.expander("View Professional Development Courses Completed"):
-    # IBM Cybersecurity Fundamentals
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("IBM_Cybersecurity_Fundamentals.png")
-    with col2: st.markdown('**IBM Cybersecurity Fundamentals**')
-    with col3: st.markdown('<div style="text-align: right;">September 2024', unsafe_allow_html=True)
-    st.markdown("") 
-
-    # IBM Agile Explorer
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("IBM_Agile_Explorer.png")
-    with col2: st.markdown('**IBM Agile Explorer**')
-    with col3: st.markdown('<div style="text-align: right;">September 2024', unsafe_allow_html=True)
-    st.markdown("") 
-
-    # MS-900T01--A: Microsoft 365 Fundamentals
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("MS_Learn.png")
-    with col2: st.markdown('**Microsoft 365 Fundamentals**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("") 
-
-    # AWS Certified Cloud Practitioner Exam Prep Course
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Certified Cloud Practitioner Exam Prep Course**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("") 
-
-    # Cloud Practitioner - Cloud Quest Completion Badge
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Cloud_Quest.png")
-    with col2: st.markdown('**Cloud Practitioner - Cloud Quest Completion Badge**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("") 
-
-    # AWS Technical Essentials
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Technical Essentials**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Getting Started with AWS Cloud Essentials
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Getting Started with AWS Cloud Essentials**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Skills Centers: Becoming a Cloud Practitioner
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Skills Centers: Becoming a Cloud Practitioner**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Skill Builder Learner Guide
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Skill Builder Learner Guide**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to AWS Marketplace
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to AWS Marketplace**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Marketplace Overview
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Marketplace Overview**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-     # Decarbonization with AWS Introduction
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Decarbonization with AWS Introduction**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Cloud Economics for Healthcare
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Cloud Economics for Healthcare**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Cloud Economics for Banking
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Cloud Economics for Banking**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Cloud for CTOs
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Cloud for CTOs**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Cloud for CHROs
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Cloud for CHROs**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Shared Responsibility Model
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Shared Responsibility Model**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Data for Executives
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Data for Executives**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Amazon Transcribe Getting Started
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Amazon Transcribe Getting Started**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Amazon Athena
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Amazon Athena**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Machine Learning Essentials for Business and Technical Decision Makers
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Machine Learning Essentials for Business and Technical Decision Makers**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Amazon Lex Getting Started
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Amazon Lex Getting Started**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Machine Learning
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Machine Learning**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Unleashing Innovation: The Generative AI Revolution
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Unleashing Innovation: The Generative AI Revolution**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Planning a Generative AI Project
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Planning a Generative AI Project**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Generative AI
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Generative AI**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Amazon Redshift Introduction
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Amazon Redshift Introduction**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS for SAP Fundamentals
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS for SAP Fundamentals**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Amazon Quicksight
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Amazon Quicksight**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Amazon Kinesis Analytics for Java Applications
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Amazon Kinesis Analytics for Java Applications**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to Amazon Kinesis Analytics
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to Amazon Kinesis Analytics**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Introduction to AWS Data Pipeline
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Introduction to AWS Data Pipeline**')
-    with col3: st.markdown('<div style="text-align: right;">April 2024', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Google Generative AI Fundamentals
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("GoogleGenAIFundamentals.png")
-    with col2: st.markdown('**Google Generative AI Fundamentals Certificate**')
-    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Google Introduction to Responsible AI
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("GoogleIntroResponsibleAI.png")
-    with col2: st.markdown('**Google Introduction to Responsible AI Course**')
-    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Google Introduction to Large Language Models
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("GoogleIntroductionLLM.png")
-    with col2: st.markdown('**Google Introduction to Large Language Models Course**')
-    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Google Introduction to Generative AI
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("GoogleIntroductionGenAI.png")
-    with col2: st.markdown('**Google Introduction to Generative AI Course**')
-    with col3: st.markdown('<div style="text-align: right;">December 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-   # AWS Cloud Essentials - Badge
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Course.png")
-    with col2: st.markdown('**AWS Cloud Essentials - Badge**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Cloud Practitioner Essentials
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Cloud Practitioner Essentials**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Cloud Essentials - Knowledge Badge
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Cloud Essentials - Knowledge Badge**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-
-    # Job Roles in the Cloud
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Job Roles in the Cloud**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # Getting Started with Cloud Acquisition
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**Getting Started with Cloud Acquisition**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Billing and Cost Management
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Billing and Cost Management**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # AWS Foundations: Getting Started with the AWS Cloud
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWS_Learning.png")
-    with col2: st.markdown('**AWS Foundations: Getting Started with the AWS Cloud**')
-    with col3: st.markdown('<div style="text-align: right;">May 2023', unsafe_allow_html=True)
-    st.markdown("")
-
-    # IBM Introduction to Data Science
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("IBM_Data.png")
-    with col2: st.markdown('**IBM Introduction to Data Science Certificate**')
-    with col3: st.markdown('<div style="text-align: right;">January 2021', unsafe_allow_html=True)
-    st.markdown("")
-
-with st.expander("View Conferences and Professional Engagements"):
-    # AWSome Day
-    col1, col2, col3 = st.columns([1, 4, 2.2])
-    with col1: st.image("AWSOMEDAY.jpeg")
-    with col2: st.markdown('**AWSome Day Conference**')
-    with col3: st.markdown('<div style="text-align: right;">February 2024', unsafe_allow_html=True)
-    st.markdown("")
 
 
 ## Additional Resources
 st.markdown('''## Additional Resources''')
-st.write("[Resume](https://www.logan.pugsley.ca/resume)")
+st.write("[Source Code](https://github.com/consoleLog7/LP-Portfolio)")
+st.write("[GitHub Profile](https://www.logan.pugsley.ca/git)")
 st.write("[Podcast Interview](https://www.curldata.ca/podcast)")
 st.write("[CurlData](https://www.curldata.ca)")
-st.write("[GitHub Profile](https://www.logan.pugsley.ca/git)")
-
-
-## About this Portfolio
-st.markdown('''## About this Portfolio''')
-st.write("[About](https://www.logan.pugsley.ca/about)")
-st.write("[Infrastructure Diagram](https://www.logan.pugsley.ca/diagram)")
-st.write("[Source Code](https://github.com/consoleLog7/LP-Portfolio)")
