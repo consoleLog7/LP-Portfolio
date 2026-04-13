@@ -50,6 +50,62 @@ Logan has previously worked with organizations across several industries, includ
 Logan’s background allows him to balance both business expertise and technical abilities to advise organizations across various industries to identify opportunities for transformation.''')
 
 
+## Work Experience
+st.markdown('''## Work Experience''')            
+# EY
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("EY.png")
+with col2: st.markdown('''**Consultant, Digital Risk Consulting**  \nErnst & Young LLP (EY)  \nHalifax, Nova Scotia''')
+with col3: st.markdown('<div style="text-align: right;">September 2025 - Present', unsafe_allow_html=True)
+st.markdown('''
+    - Provides technology and risk consulting services across provincial and municipal governments, crown corporations, educational institutions, financial services companies, automotive manufacturers, and mining companies, including Fortune 500 and publicly traded businesses.
+    - Performed data engineering, analytics, and visualization on enterprise payroll datasets to identify overtime trends, policy compliance issues, and cost-reduction opportunities for a municipal government, conveying information to client stakeholders with various areas of expertise.
+    - Provides data-driven internal audit services to organizations across multiple sectors to independently review data quality, business processes, and technology tools, to support evidence-based decision making and identify process improvement opportunities for management.
+    - Executes assessments over Internal Controls over Financial Reporting (ICFR) and Information Technology General Controls (ITGC) to validate data accuracy, system integrity, and information security across multiple public and private sector organizations.
+    - Conducted a fraud risk assessment and control design evaluation, identifying vulnerabilities and recommending mitigation strategies and technology solutions for a provincial government.
+    ''')
+st.markdown("")
+
+# BCL Internship
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("BCL.png")
+with col2: st.markdown('''**Information Management & Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, New Brunswick & Remote''')
+with col3: st.markdown('<div style="text-align: right;">May 2023 - May 2025', unsafe_allow_html=True)
+st.markdown('''
+    - Supported technical work on a multi-year business analytics and enterprise cloud data warehouse initiative, defining data structures within a dimensional model, relationships, and data processing workflows while integrating data from six insurance distributors to support business intelligence.
+    - Developed a custom business intelligence and analytics reporting system for the cybersecurity team, integrating data from cloud-native cybersecurity platforms into interactive dashboards for live cybersecurity operations monitoring and reporting to support evidence-based decisions.
+    - Contributed to a multi-year enterprise cloud data warehouse initiative integrating data from six insurance distributors to support data-driven business decisions.
+    - Implemented systems integrations and API solutions to automate data flows and improve extract, transform, and load processes for various technology systems across the organization.
+    - Transformed the national insurance claims management and data auditing process by automating enterprise workflows and creating data validation processes, leveraging Power Platform, and reduced manual data processing and review by the claims management team by over 80%.
+''')
+st.markdown("")
+
+# MLT
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("MLT.png")
+with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nMoncton, New Brunswick and Remote''')
+with col3: st.markdown('<div style="text-align: right;">May 2022 - May 2023', unsafe_allow_html=True)
+st.markdown('''
+    - Improved ETL pipelines, data management, and data validation processes for telecommunications field GPS data collection, significantly reducing human error and improving dataset reliability.
+    - Designed automation and analytics workflows to process and analyze large field-survey datasets used for telecommunications infrastructure planning, delivering enhanced accuracy for clients.
+    - Developed Python automation tools to streamline telecommunications fiber planning workflows, reducing key operational hours spent on repetitive, manual engineering processes.
+    - In collaboration with data scientists, established a process automation research program to identify data analytics and automation opportunities within telecommunications fiber planning.
+    ''')
+st.markdown("")
+
+# MLT Co-Op
+col1, col2, col3 = st.columns([1.5, 4, 2.2])
+with col1: st.image("MLT.png")
+with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, New Brunswick')
+with col3: st.markdown('<div style="text-align: right;">February 2021 - June 2021', unsafe_allow_html=True)
+st.markdown('''
+    - Coordinated a data science research project analyzing sports performance datasets, applying statistical and analytical techniques under mentorship from the company's analytics team.
+    - Developed foundational skills in data analysis, project management, business process improvement, and change management while collaborating with professional data scientists.
+    - Evaluated prior client analytics projects to understand real-world data engineering and analytical solution delivery.
+    ''')
+st.markdown("")
+
+
 ## Education
 st.markdown('''## Education''')
 col1, col2, col3 = st.columns([1.5, 4, 2.2])
@@ -123,62 +179,6 @@ with st.expander("View Courses"):
     with col3: st.markdown("PGOV302: Public Management")
     col1, col2, col3 = st.columns([3, 3, 3])
     with col1: st.markdown("BSAD495: Artificial Intelligence for Technology Management and Marketing")
-
-
-## Work Experience
-st.markdown('''## Work Experience''')            
-# EY
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("EY.png")
-with col2: st.markdown('''**Consultant, Digital Risk Consulting**  \nErnst & Young LLP (EY)  \nHalifax, Nova Scotia''')
-with col3: st.markdown('<div style="text-align: right;">September 2025 - Present', unsafe_allow_html=True)
-st.markdown('''
-    - Provides technology and risk consulting services across provincial and municipal governments, crown corporations, educational institutions, financial services companies, automotive manufacturers, and mining companies, including Fortune 500 and publicly traded businesses.
-    - Performed data engineering, analytics, and visualization on enterprise payroll datasets to identify overtime trends, policy compliance issues, and cost-reduction opportunities for a municipal government, conveying information to client stakeholders with various areas of expertise.
-    - Provides data-driven internal audit services to organizations across multiple sectors to independently review data quality, business processes, and technology tools, to support evidence-based decision making and identify process improvement opportunities for management.
-    - Executes assessments over Internal Controls over Financial Reporting (ICFR) and Information Technology General Controls (ITGC) to validate data accuracy, system integrity, and information security across multiple public and private sector organizations.
-    - Conducted a fraud risk assessment and control design evaluation, identifying vulnerabilities and recommending mitigation strategies and technology solutions for a provincial government.
-    ''')
-st.markdown("")
-
-# BCL Internship
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("BCL.png")
-with col2: st.markdown('''**Information Management & Technology Student**  \nBlue Cross Life Insurance Company of Canada  \nMoncton, New Brunswick & Remote''')
-with col3: st.markdown('<div style="text-align: right;">May 2023 - May 2025', unsafe_allow_html=True)
-st.markdown('''
-    - Supported technical work on a multi-year business analytics and enterprise cloud data warehouse initiative, defining data structures within a dimensional model, relationships, and data processing workflows while integrating data from six insurance distributors to support business intelligence.
-    - Developed a custom business intelligence and analytics reporting system for the cybersecurity team, integrating data from cloud-native cybersecurity platforms into interactive dashboards for live cybersecurity operations monitoring and reporting to support evidence-based decisions.
-    - Contributed to a multi-year enterprise cloud data warehouse initiative integrating data from six insurance distributors to support data-driven business decisions.
-    - Implemented systems integrations and API solutions to automate data flows and improve extract, transform, and load processes for various technology systems across the organization.
-    - Transformed the national insurance claims management and data auditing process by automating enterprise workflows and creating data validation processes, leveraging Power Platform, and reduced manual data processing and review by the claims management team by over 80%.
-''')
-st.markdown("")
-
-# MLT
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("MLT.png")
-with col2: st.markdown('''**Data Analyst**  \nMissing Link Technologies  \nMoncton, New Brunswick and Remote''')
-with col3: st.markdown('<div style="text-align: right;">May 2022 - May 2023', unsafe_allow_html=True)
-st.markdown('''
-    - Improved ETL pipelines, data management, and data validation processes for telecommunications field GPS data collection, significantly reducing human error and improving dataset reliability.
-    - Designed automation and analytics workflows to process and analyze large field-survey datasets used for telecommunications infrastructure planning, delivering enhanced accuracy for clients.
-    - Developed Python automation tools to streamline telecommunications fiber planning workflows, reducing key operational hours spent on repetitive, manual engineering processes.
-    - In collaboration with data scientists, established a process automation research program to identify data analytics and automation opportunities within telecommunications fiber planning.
-    ''')
-st.markdown("")
-
-# MLT Co-Op
-col1, col2, col3 = st.columns([1.5, 4, 2.2])
-with col1: st.image("MLT.png")
-with col2: st.markdown('**Data and Analytics Co-Op**  \nMissing Link Technologies  \nMoncton, New Brunswick')
-with col3: st.markdown('<div style="text-align: right;">February 2021 - June 2021', unsafe_allow_html=True)
-st.markdown('''
-    - Coordinated a data science research project analyzing sports performance datasets, applying statistical and analytical techniques under mentorship from the company's analytics team.
-    - Developed foundational skills in data analysis, project management, business process improvement, and change management while collaborating with professional data scientists.
-    - Evaluated prior client analytics projects to understand real-world data engineering and analytical solution delivery.
-    ''')
-st.markdown("")
 
 
 ## Skills
