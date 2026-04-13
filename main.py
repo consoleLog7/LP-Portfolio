@@ -34,7 +34,7 @@ with col1:
     # Logan Pugsley
     ###### *Business Analytics and Technology Professional*
     ''')
-    st.markdown(":location_on: Halifax, Nova Scotia, Canada")
+    st.markdown(":round_pushpin: Halifax, Nova Scotia, Canada")
     st.markdown(":email: loganpugsley7@gmail.com")
     st.markdown(":phone: +1 (506) 863-4378")
     st.markdown(":link: www.linkedin.com/in/loganpugsley")
