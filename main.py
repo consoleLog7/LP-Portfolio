@@ -240,6 +240,6 @@ st.markdown("")
 ## Additional Resources
 st.markdown('''## Additional Resources''')
 st.write("[Source Code](https://github.com/consoleLog7/LP-Portfolio)")
-st.write("[GitHub Profile](https://www.logan.pugsley.ca/git)")
+st.write("[GitHub Profile](https://github.com/consoleLog7)")
 st.write("[Podcast Interview](https://www.curldata.ca/podcast)")
 st.write("[CurlData](https://www.curldata.ca)")
